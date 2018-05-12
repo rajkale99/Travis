@@ -979,6 +979,14 @@ else if get_stage("%(bcb_dev)s") == "3/3" then
   if HasVendorPartition(input_zip):
     system_progress -= 0.1
 
+#Print ASCII
+  manufacturer = target_info.GetBuildProp("ro.product.manufacturer")
+  build = target_info.GetBuildProp("ro.build.date")
+  android_version = target_info.GetBuildProp("ro.build.version.release")
+  build_id = target_info.GetBuildProp("ro.build.id")
+  security_patch = target_info.GetBuildProp("ro.build.version.security_patch")
+  device = target_info.GetBuildProp("ro.product.device")
+
   script.Print("=====================================================");
   script.Print(" _      ______ _____ _____ ____  _   _  ____   ____ _");
   script.Print("| |    |  ____/ ____|_   _/ __ \| \ | |/ __ \ / ____|");
@@ -991,11 +999,12 @@ else if get_stage("%(bcb_dev)s") == "3/3" then
   script.Print("          Thanks For Flashing LEGIONOS Q             ");
   script.Print("                                                     ");
   script.Print("=====================================================");
-  script.Print(" Android version: %s"%(android_version));
+  script.Print(" Android Version : %s"%(android_version));
   script.Print(" Build id: %s"%(build_id));
-  script.Print(" Build date: %s"%(build_date));
-  script.Print(" Security patch: %s"%(security_patch));
+  script.Print(" Build Date      : %s"%(build));
+  script.Print(" Security Patch  : %s"%(security_patch));
   script.Print(" Device: %s"%(device));
+  script.Print(" Manufacturer    : %s"%(manufacturer));
   script.Print("=====================================================");
 
   def GetBlockDifference(partition):
