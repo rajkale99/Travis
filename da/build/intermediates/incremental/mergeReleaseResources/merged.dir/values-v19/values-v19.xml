@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Viewer.AmoledTheme" parent="AmoledTheme">
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+    <style name="Viewer.DarkTheme" parent="DarkTheme">
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+    <style name="Viewer.LightTheme" parent="LightTheme">
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+    <style name="Viewer.TransparentTheme" parent="TransparentTheme">
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+</resources>

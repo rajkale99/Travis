@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/travis/build/rajkale99/wallpaperboard/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-v27/values-v27.xml",
+            "map": [
+                {
+                    "source": "/home/travis/.gradle/caches/transforms-1/files-1.1/jetified-core-722bd76.aar/4edbcbd31b938bbac8176bcfb73493fd/res/values-v27/values-v27.xml",
+                    "from": {
+                        "startLines": "2,6,13",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,313,777",
+                        "endLines": "5,12,19",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "308,772,1244"
+                    }
+                }
+            ]
+        }
+    ]
+}

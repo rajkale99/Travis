@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/travis/build/rajkale99/wallpaperboard/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-sw720dp-land-v13/values-sw720dp-land-v13.xml",
+            "map": [
+                {
+                    "source": "/home/travis/.gradle/caches/transforms-1/files-1.1/core-2.0.0-rc5.aar/5ed9d1372921d1d38081f599f9d8accd/res/values-sw720dp-land-v13/values-sw720dp-land-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "51",
+                        "endOffsets": "102"
+                    }
+                }
+            ]
+        }
+    ]
+}

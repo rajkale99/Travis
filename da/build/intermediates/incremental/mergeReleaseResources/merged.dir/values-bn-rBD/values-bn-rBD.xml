@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about">সম্বন্ধে</string>
+    <string name="actions_dialog_content">আপনি এই ওয়ালপেপার সঙ্গে কি করতে চান?</string>
+    <string name="added_to_favorites">\'%1$s\' ফেভারিটে যোগ করা হয়েছে।</string>
+    <string name="all">সবকিছু</string>
+    <string name="allow">অনুমতি দিন</string>
+    <string name="apply_with_other_app">আরেকটি প্রোগ্রাম এর সাথে ব্যবহার করুন</string>
+    <string name="collections">সংগ্রহগুলি</string>
+    <string name="copied_to_clipboard">ক্লিপবোর্ডে রঙ অনুলিপি করা হয়েছে</string>
+    <string name="dev_contributions">ডেভেলপমেন্ট সাহায্য</string>
+    <string name="download">নামান</string>
+    <string name="download_successful_short">চিত্র নামানো সম্পন্ন হয়েছে</string>
+    <string name="empty_section">কিছুই পাওয়া যায়নি </string>
+    <string name="favorite">পছন্দ</string>
+    <string name="favorites">পছন্দগুলি</string>
+    <string name="file_create_new">নতুন বানান</string>
+    <string name="file_replace">পরিবর্তন করুন</string>
+    <string name="info">তথ্য</string>
+    <string name="licenses">লাইসেন্স</string>
+    <string name="loading_section">বিষয়বস্তু লোড করা হচ্ছে</string>
+    <string name="no_favorites">প্রথমে কিছু চিত্র পছন্দের তালিকায় রাখুন</string>
+    <string name="open">খুলুন</string>
+    <string name="search">অনুসন্ধান</string>
+    <string name="search_no_results">কোন ফলাফল পাওয়া যায়নি</string>
+    <string name="translate">অনুবাদ</string>
+    <string name="ui_contributions">UI সহায়তা</string>
+    <string name="wallpaper_details">বিস্তারিত</string>
+    <string name="wallpapers">চিত্রগুলি</string>
+    <string name="x_wallpapers">%1$s চিত্রগুলি</string>
+</resources>
