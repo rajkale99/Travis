@@ -109,12 +109,12 @@
     <string name="sure_to_exit_content">Voulez vous sauvegarder vos paramètres avant de quitter?</string>
     <string name="theme_setting_content">Choisir le thème principal pour l\'application</string>
     <string name="theme_setting_title">Thème de l\'application</string>
-    <string name="tipapers_dashboard">TiPapers Tableau de Bord</string>
     <string name="translate">Traduire</string>
     <string name="transparent_theme">Transparent</string>
     <string name="try_now">Essayer à nouveau</string>
     <string name="ui_contributions">Aide pour l\'interface Utilisateur</string>
     <string name="ui_settings_title">Interface Utilisateur</string>
+    <string name="vpapers_dashboard">VPapers Tableau de Bord</string>
     <string name="wallpaper_details">Détails</string>
     <string name="wallpaper_palette">Palette</string>
     <string name="wallpapers">Fonds d\'écran</string>

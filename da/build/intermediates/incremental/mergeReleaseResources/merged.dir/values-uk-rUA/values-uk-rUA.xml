@@ -109,12 +109,12 @@
     <string name="sure_to_exit_content">Бажаєте зберегти ваші налаштування перед закриттям?</string>
     <string name="theme_setting_content">Оберіть основну тему для програми</string>
     <string name="theme_setting_title">Тема додатка</string>
-    <string name="tipapers_dashboard">TiPapers - панель керування</string>
     <string name="translate">Переклад</string>
     <string name="transparent_theme">Прозора</string>
     <string name="try_now">Спробувати</string>
     <string name="ui_contributions">Допомога в інтерфейсі</string>
     <string name="ui_settings_title">Інтерфейс</string>
+    <string name="vpapers_dashboard">VPapers - панель керування</string>
     <string name="wallpaper_details">Деталі</string>
     <string name="wallpaper_palette">Палітра</string>
     <string name="wallpapers">Шпалери</string>

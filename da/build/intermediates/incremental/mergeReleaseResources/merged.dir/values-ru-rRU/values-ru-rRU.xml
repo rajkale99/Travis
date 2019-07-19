@@ -109,12 +109,12 @@
     <string name="sure_to_exit_content">Сохранить настройки перед выходом?</string>
     <string name="theme_setting_content">Выберите главную тему для приложения</string>
     <string name="theme_setting_title">Тема приложения</string>
-    <string name="tipapers_dashboard">TiPapers Dashboard</string>
     <string name="translate">Перевод</string>
     <string name="transparent_theme">Прозрачная</string>
     <string name="try_now">Попробовать сейчас</string>
     <string name="ui_contributions">Помощь в интерфейсе</string>
     <string name="ui_settings_title">Пользовательский интерфейс</string>
+    <string name="vpapers_dashboard">VPapers Dashboard</string>
     <string name="wallpaper_details">Детали</string>
     <string name="wallpaper_palette">Палитра</string>
     <string name="wallpapers">Обои</string>

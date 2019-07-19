@@ -840,8 +840,8 @@ public final class R {
         public static final int library_piracychecker_repositoryLink = 0x7f10007f;
         public static final int search_menu_title = 0x7f1000b0;
         public static final int status_bar_notification_info_overflow = 0x7f1000b7;
-        public static final int unauthorized_app_blocked = 0x7f1000c6;
-        public static final int unauthorized_app_found = 0x7f1000c7;
+        public static final int unauthorized_app_blocked = 0x7f1000c4;
+        public static final int unauthorized_app_found = 0x7f1000c5;
     }
     public static final class style {
         private style() {}

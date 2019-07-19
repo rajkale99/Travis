@@ -138,12 +138,12 @@
     <string name="sure_to_exit_content">Deseja salvar suas alterações antes de fechar?</string>
     <string name="theme_setting_content">Escolher o tema principal para o app</string>
     <string name="theme_setting_title">Tema do App</string>
-    <string name="tipapers_dashboard">Painel de wallpapers</string>
     <string name="translate">Traduzir</string>
     <string name="transparent_theme">Transparente</string>
     <string name="try_now">Tente novamente</string>
     <string name="ui_contributions">Ajuda da interface do usuário</string>
     <string name="ui_settings_title">Interface do Usuário</string>
+    <string name="vpapers_dashboard">Painel de wallpapers</string>
     <string name="wallpaper_details">Detalhes</string>
     <string name="wallpaper_palette">Cores</string>
     <string name="wallpapers">Papéis de Parede</string>

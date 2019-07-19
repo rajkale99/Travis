@@ -109,12 +109,12 @@
     <string name="sure_to_exit_content">Wil je je instellingen opslaan voor het afsluiten?</string>
     <string name="theme_setting_content">Kies de hoofd thema voor de app</string>
     <string name="theme_setting_title">App thema</string>
-    <string name="tipapers_dashboard">TiPapers Dashboard</string>
     <string name="translate">Vertaal</string>
     <string name="transparent_theme">Transparant</string>
     <string name="try_now">Probeer nu</string>
     <string name="ui_contributions">UI help</string>
     <string name="ui_settings_title">Gebruikersomgeving</string>
+    <string name="vpapers_dashboard">VPapers Dashboard</string>
     <string name="wallpaper_details">Details</string>
     <string name="wallpaper_palette">Palet</string>
     <string name="wallpapers">Achtergronden</string>

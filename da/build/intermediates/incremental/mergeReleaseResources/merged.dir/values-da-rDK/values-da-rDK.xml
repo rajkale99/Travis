@@ -106,12 +106,12 @@ Prøv igen senere.</string>
     <string name="sure_to_exit_content">Vil du gemme dine indstillinger før du afslutter?</string>
     <string name="theme_setting_content">Vælg de primære team for appen</string>
     <string name="theme_setting_title">App tema</string>
-    <string name="tipapers_dashboard">TiPapers instrumentpanel</string>
     <string name="translate">Oversæt</string>
     <string name="transparent_theme">Gennemsigtig</string>
     <string name="try_now">Prøv nu</string>
     <string name="ui_contributions">Brugerflade hjælp</string>
     <string name="ui_settings_title">Brugerflade</string>
+    <string name="vpapers_dashboard">VPapers instrumentpanel</string>
     <string name="wallpaper_details">Detaljer</string>
     <string name="wallpaper_palette">Palette</string>
     <string name="wallpapers">Baggrunde</string>

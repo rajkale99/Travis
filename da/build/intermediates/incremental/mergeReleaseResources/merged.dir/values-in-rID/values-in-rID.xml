@@ -105,12 +105,12 @@
     <string name="sure_to_exit_content">Apakah anda ingin menyimpan pengaturan anda sebelum keluar?</string>
     <string name="theme_setting_content">Pilih tema utama untuk apalikasi</string>
     <string name="theme_setting_title">Tema aplikasi</string>
-    <string name="tipapers_dashboard">Bingkai Dasbor</string>
     <string name="translate">Terjemahkan</string>
     <string name="transparent_theme">Transparan</string>
     <string name="try_now">Coba sekarang</string>
     <string name="ui_contributions">Bantuan UI</string>
     <string name="ui_settings_title">Pengguna antarmuka</string>
+    <string name="vpapers_dashboard">Bingkai Dasbor</string>
     <string name="wallpaper_details">Rincian</string>
     <string name="wallpaper_palette">Palet</string>
     <string name="wallpapers">Wallpaper</string>

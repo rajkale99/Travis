@@ -105,12 +105,12 @@
     <string name="sure_to_exit_content">क्या आप बाहर जाने से पहले अपनी सेटिंग्स सेव करना चाहते हैं?</string>
     <string name="theme_setting_content">ऐप के लिए मुख्य थीम को चुनें</string>
     <string name="theme_setting_title">एप्लिकेशन थीम</string>
-    <string name="tipapers_dashboard">फ्रेम्स डैशबोर्ड</string>
     <string name="translate">ट्रांसलेट</string>
     <string name="transparent_theme">ट्रांसपेरेंट</string>
     <string name="try_now">अब कोशिश करे</string>
     <string name="ui_contributions">यूआई हेल्प</string>
     <string name="ui_settings_title">यूजर इंटरफेस</string>
+    <string name="vpapers_dashboard">फ्रेम्स डैशबोर्ड</string>
     <string name="wallpaper_details">डिटेल्स</string>
     <string name="wallpaper_palette">पैलेट</string>
     <string name="wallpapers">वॉलपेपर्स</string>

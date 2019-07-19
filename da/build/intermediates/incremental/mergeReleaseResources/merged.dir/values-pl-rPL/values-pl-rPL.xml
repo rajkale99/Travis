@@ -110,12 +110,12 @@ Obecnie wybrana kolekcja: %1$s</string>
     <string name="sure_to_exit_content">Czy chcesz zapisać ustawienia przed wyjściem?</string>
     <string name="theme_setting_content">Wybierz motyw aplikacji</string>
     <string name="theme_setting_title">Motyw</string>
-    <string name="tipapers_dashboard">Aplikacja bazowa TiPapers</string>
     <string name="translate">Przetłumacz</string>
     <string name="transparent_theme">Przeźroczysty</string>
     <string name="try_now">Spróbuj teraz</string>
     <string name="ui_contributions">Pomoc w projektowaniu UI</string>
     <string name="ui_settings_title">Interfejs Użytkownika</string>
+    <string name="vpapers_dashboard">Aplikacja bazowa VPapers</string>
     <string name="wallpaper_details">Szczegóły</string>
     <string name="wallpaper_palette">Paleta barw</string>
     <string name="wallpapers">Tapety</string>

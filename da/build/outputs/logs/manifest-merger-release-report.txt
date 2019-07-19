@@ -1,5 +1,5 @@
 -- Merging decision tree log ---
-provider#com.pti.tipapers.app.MuzeiService
+provider#com.viper.vpapers.app.MuzeiService
 INJECTED from /home/travis/build/rajkale99/wallpaperboard/app/src/main/AndroidManifest.xml:96:1-103:20
 	android:authorities
 		INJECTED from /home/travis/build/rajkale99/wallpaperboard/app/src/main/AndroidManifest.xml
@@ -92,7 +92,7 @@ INJECTED from /home/travis/build/rajkale99/wallpaperboard/app/src/main/AndroidMa
 INJECTED from /home/travis/build/rajkale99/wallpaperboard/app/src/main/AndroidManifest.xml:17:1-112:12
 INJECTED from /home/travis/build/rajkale99/wallpaperboard/app/src/main/AndroidManifest.xml:17:1-112:12
 	package
-		ADDED from /home/travis/build/rajkale99/wallpaperboard/app/src/main/AndroidManifest.xml:19:11-41
+		ADDED from /home/travis/build/rajkale99/wallpaperboard/app/src/main/AndroidManifest.xml:19:11-42
 		INJECTED from /home/travis/build/rajkale99/wallpaperboard/app/src/main/AndroidManifest.xml
 		INJECTED from /home/travis/build/rajkale99/wallpaperboard/app/src/main/AndroidManifest.xml
 	android:versionName
@@ -175,7 +175,7 @@ MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /home/travis/.gradle/ca
 		ADDED from /home/travis/build/rajkale99/wallpaperboard/app/src/main/AndroidManifest.xml:32:9-69
 	android:name
 		ADDED from /home/travis/build/rajkale99/wallpaperboard/app/src/main/AndroidManifest.xml:25:9-38
-activity#com.pti.tipapers.app.MainActivity
+activity#com.viper.vpapers.app.MainActivity
 ADDED from /home/travis/build/rajkale99/wallpaperboard/app/src/main/AndroidManifest.xml:47:9-87:20
 	android:label
 		ADDED from /home/travis/build/rajkale99/wallpaperboard/app/src/main/AndroidManifest.xml:49:13-45
@@ -376,11 +376,11 @@ ADDED from /home/travis/build/rajkale99/wallpaperboard/app/src/main/AndroidManif
 	android:name
 		ADDED from /home/travis/build/rajkale99/wallpaperboard/app/src/main/AndroidManifest.xml:103:1-54
 meta-data#settingsActivity
-ADDED from /home/travis/build/rajkale99/wallpaperboard/app/src/main/AndroidManifest.xml:103:1-88
+ADDED from /home/travis/build/rajkale99/wallpaperboard/app/src/main/AndroidManifest.xml:103:1-89
 	android:value
-		ADDED from /home/travis/build/rajkale99/wallpaperboard/app/src/main/AndroidManifest.xml:103:1-88
+		ADDED from /home/travis/build/rajkale99/wallpaperboard/app/src/main/AndroidManifest.xml:103:1-89
 	android:name
-		ADDED from /home/travis/build/rajkale99/wallpaperboard/app/src/main/AndroidManifest.xml:103:1-88
+		ADDED from /home/travis/build/rajkale99/wallpaperboard/app/src/main/AndroidManifest.xml:103:1-89
 meta-data#android.support.FILE_PROVIDER_PATHS
 ADDED from /home/travis/build/rajkale99/wallpaperboard/app/src/main/AndroidManifest.xml:109:1-58
 	android:resource
@@ -491,7 +491,7 @@ ADDED from [:library] /home/travis/build/rajkale99/wallpaperboard/library/build/
 		ADDED from [:library] /home/travis/build/rajkale99/wallpaperboard/library/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:77:13-33
 	android:name
 		ADDED from [:library] /home/travis/build/rajkale99/wallpaperboard/library/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:76:13-56
-activity#com.pti.tipapers.ui.activities.TiPapersActivity
+activity#com.viper.vpapers.ui.activities.VPapersActivity
 ADDED from [:library] /home/travis/build/rajkale99/wallpaperboard/library/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:80:9-83:80
 	android:windowSoftInputMode
 		ADDED from [:library] /home/travis/build/rajkale99/wallpaperboard/library/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:83:13-77
@@ -499,42 +499,42 @@ ADDED from [:library] /home/travis/build/rajkale99/wallpaperboard/library/build/
 		ADDED from [:library] /home/travis/build/rajkale99/wallpaperboard/library/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:82:13-37
 	android:name
 		ADDED from [:library] /home/travis/build/rajkale99/wallpaperboard/library/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:81:13-75
-activity#com.pti.tipapers.ui.activities.ViewerActivity
+activity#com.viper.vpapers.ui.activities.ViewerActivity
 ADDED from [:library] /home/travis/build/rajkale99/wallpaperboard/library/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:84:9-86:40
 	android:exported
 		ADDED from [:library] /home/travis/build/rajkale99/wallpaperboard/library/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:86:13-37
 	android:name
-		ADDED from [:library] /home/travis/build/rajkale99/wallpaperboard/library/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:85:13-73
-activity#com.pti.tipapers.ui.activities.CollectionActivity
+		ADDED from [:library] /home/travis/build/rajkale99/wallpaperboard/library/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:85:13-74
+activity#com.viper.vpapers.ui.activities.CollectionActivity
 ADDED from [:library] /home/travis/build/rajkale99/wallpaperboard/library/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:87:9-90:80
 	android:windowSoftInputMode
 		ADDED from [:library] /home/travis/build/rajkale99/wallpaperboard/library/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:90:13-77
 	android:exported
 		ADDED from [:library] /home/travis/build/rajkale99/wallpaperboard/library/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:89:13-37
 	android:name
-		ADDED from [:library] /home/travis/build/rajkale99/wallpaperboard/library/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:88:13-77
-activity#com.pti.tipapers.ui.activities.CreditsActivity
+		ADDED from [:library] /home/travis/build/rajkale99/wallpaperboard/library/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:88:13-78
+activity#com.viper.vpapers.ui.activities.CreditsActivity
 ADDED from [:library] /home/travis/build/rajkale99/wallpaperboard/library/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:91:9-93:40
 	android:exported
 		ADDED from [:library] /home/travis/build/rajkale99/wallpaperboard/library/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:93:13-37
 	android:name
-		ADDED from [:library] /home/travis/build/rajkale99/wallpaperboard/library/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:92:13-74
-activity#com.pti.tipapers.ui.activities.SettingsActivity
+		ADDED from [:library] /home/travis/build/rajkale99/wallpaperboard/library/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:92:13-75
+activity#com.viper.vpapers.ui.activities.SettingsActivity
 ADDED from [:library] /home/travis/build/rajkale99/wallpaperboard/library/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:94:9-100:20
 	android:name
-		ADDED from [:library] /home/travis/build/rajkale99/wallpaperboard/library/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:94:19-81
+		ADDED from [:library] /home/travis/build/rajkale99/wallpaperboard/library/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:94:19-82
 intent-filter#action:name:android.intent.action.APPLICATION_PREFERENCES+category:name:android.intent.category.DEFAULT
 ADDED from [:library] /home/travis/build/rajkale99/wallpaperboard/library/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:95:13-99:29
 action#android.intent.action.APPLICATION_PREFERENCES
 ADDED from [:library] /home/travis/build/rajkale99/wallpaperboard/library/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:96:17-88
 	android:name
 		ADDED from [:library] /home/travis/build/rajkale99/wallpaperboard/library/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:96:25-85
-activity#com.pti.tipapers.ui.activities.MuzeiSettingsActivity
+activity#com.viper.vpapers.ui.activities.MuzeiSettingsActivity
 ADDED from [:library] /home/travis/build/rajkale99/wallpaperboard/library/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:101:9-103:39
 	android:exported
 		ADDED from [:library] /home/travis/build/rajkale99/wallpaperboard/library/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:103:13-36
 	android:name
-		ADDED from [:library] /home/travis/build/rajkale99/wallpaperboard/library/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:102:13-80
+		ADDED from [:library] /home/travis/build/rajkale99/wallpaperboard/library/build/intermediates/merged_manifests/release/processReleaseManifest/merged/AndroidManifest.xml:102:13-81
 activity#com.github.javiersantos.piracychecker.activities.LicenseActivity
 ADDED from [com.github.javiersantos:PiracyChecker:1.2.4] /home/travis/.gradle/caches/transforms-1/files-1.1/jetified-PiracyChecker-1.2.4.aar/1969b6af5659baf9e724fdd2d63bd5fd/AndroidManifest.xml:14:9-16:57
 	android:theme

@@ -104,12 +104,12 @@
     <string name="sure_to_exit_content">പുറത്തുകടക്കുന്നതിന് മുമ്പ് നിങ്ങളുടെ ക്രമീകരണങ്ങൾ സംരക്ഷിക്കണോ?</string>
     <string name="theme_setting_content">അപ്ലിക്കേഷനായി പ്രധാന തീം തിരഞ്ഞെടുക്കുക</string>
     <string name="theme_setting_title">അപ്ലിക്കേഷൻ തീം</string>
-    <string name="tipapers_dashboard">ഫ്രെയിംസ് ഡാഷ്ബോർഡ്</string>
     <string name="translate">വിവർത്തനം ചെയ്യുക</string>
     <string name="transparent_theme">സുതാര്യം</string>
     <string name="try_now">ഇപ്പോൾ ശ്രമിക്കുക</string>
     <string name="ui_contributions">യു ഐ സഹായം</string>
     <string name="ui_settings_title">ഉപയോക്തൃ ഇന്റർഫേസ്</string>
+    <string name="vpapers_dashboard">ഫ്രെയിംസ് ഡാഷ്ബോർഡ്</string>
     <string name="wallpaper_details">വിശദാംശങ്ങൾ</string>
     <string name="wallpaper_palette">പാലറ്റ്</string>
     <string name="wallpapers">വാൾപേപ്പറുകൾ</string>

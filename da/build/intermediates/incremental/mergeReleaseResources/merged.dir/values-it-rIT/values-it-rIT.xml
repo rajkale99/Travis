@@ -107,12 +107,12 @@
     <string name="sure_to_exit_content">Vuoi salvare le tue impostazioni prima di uscire?</string>
     <string name="theme_setting_content">Scegli il tema principale dell\'app</string>
     <string name="theme_setting_title">Tema dell\'app</string>
-    <string name="tipapers_dashboard">Dashboard TiPapers</string>
     <string name="translate">Traduci</string>
     <string name="transparent_theme">Trasparente</string>
     <string name="try_now">Prova ora</string>
     <string name="ui_contributions">Aiuto UI</string>
     <string name="ui_settings_title">Interfaccia Utente</string>
+    <string name="vpapers_dashboard">Dashboard VPapers</string>
     <string name="wallpaper_details">Dettagli</string>
     <string name="wallpaper_palette">Tavolozza</string>
     <string name="wallpapers">Sfondi</string>

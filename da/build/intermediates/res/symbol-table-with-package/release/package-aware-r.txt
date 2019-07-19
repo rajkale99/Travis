@@ -1,4 +1,4 @@
-com.pti.tipapers
+com.viper.vpapers
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -549,7 +549,7 @@ bool accent_in_tabs
 bool enable_colored_tiles
 bool enable_filled_collection_preview
 bool isTablet
-bool isTiPapers
+bool isVPapers
 bool is_DarkTheme
 bool mtrl_btn_textappearance_all_caps
 bool notifications_enabled_by_default
@@ -1583,7 +1583,7 @@ layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
 layout viewer_bottom_bar
-menu tipapers_menu
+menu vpapers_menu
 mipmap ic_foreground
 mipmap ic_launcher
 raw asl_20_full
@@ -1810,8 +1810,6 @@ string terms_conditions
 string terms_conditions_link
 string theme_setting_content
 string theme_setting_title
-string tipapers_dashboard
-string tipapers_notifications_action
 string translate
 string transparent_theme
 string try_now
@@ -1819,6 +1817,8 @@ string ui_contributions
 string ui_settings_title
 string unauthorized_app_blocked
 string unauthorized_app_found
+string vpapers_dashboard
+string vpapers_notifications_action
 string wallpaper_details
 string wallpaper_palette
 string wallpapers
@@ -2240,14 +2240,14 @@ style ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox
 style ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense
 style ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox
 style ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense
-style TiPapers_Base_Amoled
-style TiPapers_Base_Clear
-style TiPapers_Base_Dark
-style TiPapers_Base_Light
-style TiPapers_BaseDark
-style TiPapers_BaseLight
 style TransparentTheme
 style TransparentTheme_SplashScreen
+style VPapers_Base_Amoled
+style VPapers_Base_Clear
+style VPapers_Base_Dark
+style VPapers_Base_Light
+style VPapers_BaseDark
+style VPapers_BaseLight
 style Viewer_AmoledTheme
 style Viewer_DarkTheme
 style Viewer_LightTheme

@@ -88,7 +88,7 @@
     <bool name="enable_colored_tiles">true</bool>
     <bool name="enable_filled_collection_preview">false</bool>
     <bool name="isTablet">false</bool>
-    <bool name="isTiPapers">true</bool>
+    <bool name="isVPapers">true</bool>
     <bool name="is_DarkTheme">false</bool>
     <bool name="mtrl_btn_textappearance_all_caps">true</bool>
     <bool name="notifications_enabled_by_default">true</bool>
@@ -2328,7 +2328,7 @@
     <string name="animations_setting_content">This may cause lag in some devices.</string>
     <string name="animations_setting_title">Enable animations</string>
     <string name="app_description">A great wallpapers app with hundreds of cool pictures.</string>
-    <string name="app_name">TiPapers</string>
+    <string name="app_name">VPapers</string>
     <string name="app_unlicensed">This app is not licensed</string>
     <string name="app_unlicensed_close">Close</string>
     <string name="app_unlicensed_description">This application is not licensed nor valid. Please download the app from a trusted source.</string>
@@ -2363,7 +2363,7 @@
     <string name="days">Days</string>
     <string name="deep_search_content">Search by name and collection</string>
     <string name="deep_search_title">Enable deep search</string>
-    <string name="default_download_folder">%1$s/TiPapers/Wallpapers</string>
+    <string name="default_download_folder">%1$s/VPapers/Wallpapers</string>
     <string name="define_piracychecker"/>
     <string name="dev_contributions">Development Help</string>
     <string name="dismiss">Dismiss</string>
@@ -2396,7 +2396,7 @@
     <string name="home_screen">Home screen</string>
     <string name="hours">Hours</string>
     <string name="info">Information</string>
-    <string name="json_url">https://raw.githubusercontent.com/Project-Titanium/TiPapers/tipapers/tipapers.json</string>
+    <string name="json_url">https://raw.githubusercontent.com/ViperOS/VPapers/vpapers/wallpapers.json</string>
     <string name="legal">Legal</string>
     <string name="library_piracychecker_author" translatable="false">Javier Santos</string>
     <string name="library_piracychecker_authorWebsite" translatable="false">https://github.com/javiersantos</string>
@@ -2482,8 +2482,6 @@
     <string name="terms_conditions_link">""</string>
     <string name="theme_setting_content">Choose the main theme for the app</string>
     <string name="theme_setting_title">App theme</string>
-    <string name="tipapers_dashboard">TiPapers Dashboard</string>
-    <string name="tipapers_notifications_action">"com.pti.tipapers.NOTIFICATIONS_ACTION"</string>
     <string name="translate">Translate</string>
     <string name="transparent_theme">Transparent</string>
     <string name="try_now">Try now</string>
@@ -2491,6 +2489,8 @@
     <string name="ui_settings_title">User Interface</string>
     <string name="unauthorized_app_blocked">License is invalid because you have been using an unauthorized app such as Lucky Patcher. Please reinstall the app when the unauthorized app is completely uninstalled.</string>
     <string name="unauthorized_app_found">License is invalid because we have found you have %1$s app installed on your device.</string>
+    <string name="vpapers_dashboard">VPapers Dashboard</string>
+    <string name="vpapers_notifications_action">"com.viper.vpapers.NOTIFICATIONS_ACTION"</string>
     <string name="wallpaper_details">Details</string>
     <string name="wallpaper_palette">Palette</string>
     <string name="wallpapers">Wallpapers</string>
@@ -2505,7 +2505,7 @@
     <style name="AmoledPopUp" parent="ThemeOverlay.AppCompat.Dark">
         <item name="android:colorBackground">#101010</item>
     </style>
-    <style name="AmoledTheme" parent="TiPapers.Base.Amoled"/>
+    <style name="AmoledTheme" parent="VPapers.Base.Amoled"/>
     <style name="AmoledTheme.SplashScreen">
         <item name="android:windowBackground">@drawable/splash_screen_amoled</item>
         <item name="colorPrimaryDark">@android:color/black</item>
@@ -3964,7 +3964,7 @@
     <style name="DarkPopUp" parent="ThemeOverlay.AppCompat.Dark">
         <item name="android:colorBackground">@color/dark_theme_card_background</item>
     </style>
-    <style name="DarkTheme" parent="TiPapers.Base.Dark"/>
+    <style name="DarkTheme" parent="VPapers.Base.Dark"/>
     <style name="DarkTheme.SplashScreen">
         <item name="android:windowBackground">@drawable/splash_screen_dark</item>
         <item name="colorPrimaryDark">@color/splash_dark_status_bar</item>
@@ -3984,7 +3984,7 @@
     <style name="LightPopUp" parent="ThemeOverlay.AppCompat.Light">
         <item name="android:colorBackground">@color/light_theme_card_background</item>
     </style>
-    <style name="LightTheme" parent="TiPapers.Base.Light"/>
+    <style name="LightTheme" parent="VPapers.Base.Light"/>
     <style name="LightTheme.SplashScreen">
         <item name="android:windowBackground">@drawable/splash_screen_light</item>
         <item name="colorPrimaryDark">@color/splash_light_status_bar</item>
@@ -4679,7 +4679,13 @@
     <item name="editTextStyle">@style/Widget.MaterialComponents.TextInputEditText.OutlinedBox.Dense
     </item>
   </style>
-    <style name="TiPapers.Base.Amoled" parent="TiPapers.Base.Dark">
+    <style name="TransparentTheme" parent="VPapers.Base.Clear"/>
+    <style name="TransparentTheme.SplashScreen">
+        <item name="android:windowBackground">@drawable/splash_screen_clear</item>
+        <item name="colorPrimaryDark">@color/dark_theme_primary_dark</item>
+        <item name="colorAccent">@color/dark_theme_accent</item>
+    </style>
+    <style name="VPapers.Base.Amoled" parent="VPapers.Base.Dark">
         <item name="colorPrimary">@android:color/black</item>
         <item name="colorPrimaryDark">@android:color/black</item>
         <item name="android:windowBackground">@android:color/black</item>
@@ -4687,11 +4693,11 @@
         <item name="md_background_color">#101010</item>
         <item name="cardBackgroundColor">#101010</item>
     </style>
-    <style name="TiPapers.Base.Clear" parent="TiPapers.Base.Amoled">
+    <style name="VPapers.Base.Clear" parent="VPapers.Base.Amoled">
         <item name="android:windowShowWallpaper">true</item>
         <item name="android:windowBackground">@color/clear_bg</item>
     </style>
-    <style name="TiPapers.Base.Dark" parent="Theme.AppCompat.NoActionBar">
+    <style name="VPapers.Base.Dark" parent="Theme.AppCompat.NoActionBar">
         <item name="colorPrimary">@color/dark_theme_primary</item>
         <item name="colorPrimaryDark">@color/dark_theme_primary_dark</item>
         <item name="colorAccent">@color/dark_theme_accent</item>
@@ -4713,7 +4719,7 @@
 
         <item name="isDarkTheme">true</item>
     </style>
-    <style name="TiPapers.Base.Light" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="VPapers.Base.Light" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="colorPrimary">@color/light_theme_primary</item>
         <item name="colorPrimaryDark">@color/light_theme_primary_dark</item>
         <item name="colorAccent">@color/light_theme_accent</item>
@@ -4738,12 +4744,6 @@
         <item name="android:windowLightNavigationBar">@bool/windowLightNavigationBar</item>
 
         <item name="isDarkTheme">@bool/is_DarkTheme</item>
-    </style>
-    <style name="TransparentTheme" parent="TiPapers.Base.Clear"/>
-    <style name="TransparentTheme.SplashScreen">
-        <item name="android:windowBackground">@drawable/splash_screen_clear</item>
-        <item name="colorPrimaryDark">@color/dark_theme_primary_dark</item>
-        <item name="colorAccent">@color/dark_theme_accent</item>
     </style>
     <style name="Viewer.AmoledTheme" parent="AmoledTheme"/>
     <style name="Viewer.DarkTheme" parent="DarkTheme"/>

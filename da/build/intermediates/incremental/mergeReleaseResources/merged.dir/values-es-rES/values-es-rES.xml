@@ -112,12 +112,12 @@
     <string name="terms_conditions">Términos y Condiciones</string>
     <string name="theme_setting_content">Selecciona el tema principal de la aplicación</string>
     <string name="theme_setting_title">Tema</string>
-    <string name="tipapers_dashboard">Aplicación TiPapers</string>
     <string name="translate">Traducir</string>
     <string name="transparent_theme">Transparente</string>
     <string name="try_now">Intentar ahora</string>
     <string name="ui_contributions">Colaboración de Interfaz</string>
     <string name="ui_settings_title">Interfaz de Usuario</string>
+    <string name="vpapers_dashboard">Aplicación VPapers</string>
     <string name="wallpaper_details">Detalles</string>
     <string name="wallpaper_palette">Paleta</string>
     <string name="wallpapers">Fondos de pantalla</string>

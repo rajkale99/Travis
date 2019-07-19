@@ -1916,10 +1916,6 @@
         "source": "/home/travis/.gradle/caches/transforms-1/files-1.1/core-2.0.0-rc5.aar/5ed9d1372921d1d38081f599f9d8accd/res/color/md_list_item_textcolor.xml"
     },
     {
-        "merged": "/home/travis/build/rajkale99/wallpaperboard/app/build/intermediates/res/merged/release/menu_tipapers_menu.xml.flat",
-        "source": "/home/travis/build/rajkale99/wallpaperboard/library/build/intermediates/packaged_res/release/menu/tipapers_menu.xml"
-    },
-    {
         "merged": "/home/travis/build/rajkale99/wallpaperboard/app/build/intermediates/res/merged/release/drawable-mdpi-v4_icon_new_folder_light.png.flat",
         "source": "/home/travis/.gradle/caches/transforms-1/files-1.1/files-2.0.0-rc5.aar/38d74fa5be4bfd211d1b12a39486fdf8/res/drawable-mdpi-v4/icon_new_folder_light.png"
     },
@@ -2034,6 +2030,10 @@
     {
         "merged": "/home/travis/build/rajkale99/wallpaperboard/app/build/intermediates/res/merged/release/animator_mtrl_fab_transformation_sheet_expand_spec.xml.flat",
         "source": "/home/travis/.gradle/caches/transforms-1/files-1.1/material-1.0.0.aar/b68de92f7f60d268300d21a895c8b05c/res/animator/mtrl_fab_transformation_sheet_expand_spec.xml"
+    },
+    {
+        "merged": "/home/travis/build/rajkale99/wallpaperboard/app/build/intermediates/res/merged/release/menu_vpapers_menu.xml.flat",
+        "source": "/home/travis/build/rajkale99/wallpaperboard/library/build/intermediates/packaged_res/release/menu/vpapers_menu.xml"
     },
     {
         "merged": "/home/travis/build/rajkale99/wallpaperboard/app/build/intermediates/res/merged/release/drawable_ic_collections.xml.flat",

@@ -112,12 +112,12 @@
     <string name="terms_conditions">Allgemeine Geschäftsbedingungen</string>
     <string name="theme_setting_content">Wähle das Haupt-Theme für die App</string>
     <string name="theme_setting_title">App-Theme</string>
-    <string name="tipapers_dashboard">TiPapers Dashboard</string>
     <string name="translate">Übersetzen</string>
     <string name="transparent_theme">Transparent</string>
     <string name="try_now">Jetzt versuchen</string>
     <string name="ui_contributions">UI-Hilfe</string>
     <string name="ui_settings_title">Benutzeroberfläche</string>
+    <string name="vpapers_dashboard">VPapers Dashboard</string>
     <string name="wallpaper_details">Details</string>
     <string name="wallpaper_palette">Palette</string>
     <string name="wallpapers">Wallpaper</string>

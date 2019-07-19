@@ -15,7 +15,7 @@
   ~ limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.pti.tipapers"
+    package="com.viper.vpapers"
     android:versionCode="10"
     android:versionName="1.0" >
 
@@ -46,7 +46,7 @@
         android:xlargeScreens="true" />
 
     <application
-        android:name="com.pti.tipapers.app.MyApplication"
+        android:name="com.viper.vpapers.app.MyApplication"
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:fullBackupContent="true"
@@ -71,7 +71,7 @@
         -->
 
         <activity
-            android:name="com.pti.tipapers.app.MainActivity"
+            android:name="com.viper.vpapers.app.MainActivity"
             android:label="@string/app_name" >
 
             <!-- TODO: Do NOT remove the intent-filter tags -->
@@ -116,8 +116,8 @@
 
         <!-- Muzei Service -->
         <provider
-            android:name="com.pti.tipapers.app.MuzeiService"
-            android:authorities="com.pti.tipapers.muzei"
+            android:name="com.viper.vpapers.app.MuzeiService"
+            android:authorities="com.viper.vpapers.muzei"
             android:description="@string/app_description"
             android:exported="true"
             android:icon="@drawable/ic_muzei_icon"
@@ -132,13 +132,13 @@
                 android:value="@color/muzei_color" />
             <meta-data
                 android:name="settingsActivity"
-                android:value="com.pti.tipapers.ui.activities.MuzeiSettingsActivity" />
+                android:value="com.viper.vpapers.ui.activities.MuzeiSettingsActivity" />
         </provider>
 
         <!-- Required for files access !!! DO NOT REMOVE !!! -->
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="com.pti.tipapers.fileProvider"
+            android:authorities="com.viper.vpapers.fileProvider"
             android:exported="false"
             android:grantUriPermissions="true" >
             <meta-data
@@ -169,20 +169,20 @@
             android:name="com.lge.support.SPLIT_WINDOW"
             android:value="true" /> <!-- suppress AndroidDomInspection -->
         <activity
-            android:name="com.pti.tipapers.ui.activities.TiPapersActivity"
+            android:name="com.viper.vpapers.ui.activities.VPapersActivity"
             android:exported="false"
             android:windowSoftInputMode="stateHidden|adjustPan|adjustResize" />
         <activity
-            android:name="com.pti.tipapers.ui.activities.ViewerActivity"
+            android:name="com.viper.vpapers.ui.activities.ViewerActivity"
             android:exported="false" />
         <activity
-            android:name="com.pti.tipapers.ui.activities.CollectionActivity"
+            android:name="com.viper.vpapers.ui.activities.CollectionActivity"
             android:exported="false"
             android:windowSoftInputMode="stateHidden|adjustPan|adjustResize" />
         <activity
-            android:name="com.pti.tipapers.ui.activities.CreditsActivity"
+            android:name="com.viper.vpapers.ui.activities.CreditsActivity"
             android:exported="false" />
-        <activity android:name="com.pti.tipapers.ui.activities.SettingsActivity" >
+        <activity android:name="com.viper.vpapers.ui.activities.SettingsActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.APPLICATION_PREFERENCES" />
 
@@ -190,7 +190,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.pti.tipapers.ui.activities.MuzeiSettingsActivity"
+            android:name="com.viper.vpapers.ui.activities.MuzeiSettingsActivity"
             android:exported="true" />
         <activity
             android:name="com.github.javiersantos.piracychecker.activities.LicenseActivity"
@@ -205,7 +205,7 @@
 
         <provider
             android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-            android:authorities="com.pti.tipapers.lifecycle-process"
+            android:authorities="com.viper.vpapers.lifecycle-process"
             android:exported="false"
             android:multiprocess="true" />
     </application>

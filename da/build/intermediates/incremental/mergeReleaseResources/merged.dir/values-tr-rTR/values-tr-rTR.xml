@@ -87,12 +87,12 @@
     <string name="sure_to_exit_content">Çıkış yapmadan önce kaydetmek ister misiniz?</string>
     <string name="theme_setting_content">Uygulamanın ana temasını seçin</string>
     <string name="theme_setting_title">Uygulama teması</string>
-    <string name="tipapers_dashboard">Çerçevelenmiş pano</string>
     <string name="translate">Tercüme</string>
     <string name="transparent_theme">Şeffaf</string>
     <string name="try_now">Şimdi dene</string>
     <string name="ui_contributions">UI Yardımı</string>
     <string name="ui_settings_title">Kullanıcı arayüzü</string>
+    <string name="vpapers_dashboard">Çerçevelenmiş pano</string>
     <string name="wallpaper_details">Ayrıntılar</string>
     <string name="wallpaper_palette">Palet</string>
     <string name="wallpapers">Duvar kağıtları</string>

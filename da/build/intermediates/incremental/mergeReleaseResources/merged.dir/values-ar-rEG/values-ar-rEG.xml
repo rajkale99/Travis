@@ -66,9 +66,9 @@
     <string name="share_text">خلفيتي لهذا اليوم هي %1$s بواسطة %2$s، من %3$s. احصل عليها الان في %4$s</string>
     <string name="sure_to_exit">خروج</string>
     <string name="sure_to_exit_content">هل تريد حفظ الإعدادات الخاصة بك قبل الخروج؟</string>
-    <string name="tipapers_dashboard">لوحة الإطارات</string>
     <string name="translate">ترجمة</string>
     <string name="ui_contributions">تعليمات واجهة المستخدم</string>
+    <string name="vpapers_dashboard">لوحة الإطارات</string>
     <string name="wallpaper_details">تفاصيل</string>
     <string name="wallpaper_palette">لوح الألوان</string>
     <string name="wallpapers">خلفيات</string>

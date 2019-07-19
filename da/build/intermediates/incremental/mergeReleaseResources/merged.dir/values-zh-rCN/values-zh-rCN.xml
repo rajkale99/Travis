@@ -135,12 +135,12 @@
     <string name="sure_to_exit_content">在你退出之前你想保存你的设置吗？</string>
     <string name="theme_setting_content">选择应用的主要主题</string>
     <string name="theme_setting_title">应用主题</string>
-    <string name="tipapers_dashboard">TiPapers 仪表盘</string>
     <string name="translate">翻译</string>
     <string name="transparent_theme">透明主题</string>
     <string name="try_now">现在尝试</string>
     <string name="ui_contributions">UI设计帮助</string>
     <string name="ui_settings_title">用户界面</string>
+    <string name="vpapers_dashboard">VPapers 仪表盘</string>
     <string name="wallpaper_details">详细信息</string>
     <string name="wallpaper_palette">色板</string>
     <string name="wallpapers">壁纸</string>
