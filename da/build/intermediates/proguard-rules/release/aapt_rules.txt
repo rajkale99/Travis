@@ -1,0 +1,228 @@
+# Referenced at /home/travis/build/rajkale99/Frames/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:48
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+# Referenced at /home/travis/build/rajkale99/Frames/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:140
+-keep class androidx.core.content.FileProvider { <init>(); }
+# Referenced at /home/travis/build/rajkale99/Frames/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:207
+-keep class androidx.lifecycle.ProcessLifecycleOwnerInitializer { <init>(); }
+# Referenced at /home/travis/build/rajkale99/Frames/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:196
+-keep class com.github.javiersantos.piracychecker.activities.LicenseActivity { <init>(); }
+# Referenced at /home/travis/build/rajkale99/Frames/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:74
+-keep class jahirfiquitiva.apps.frames.sample.MainActivity { <init>(); }
+# Referenced at /home/travis/build/rajkale99/Frames/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:119
+-keep class jahirfiquitiva.apps.frames.sample.MuzeiService { <init>(); }
+# Referenced at /home/travis/build/rajkale99/Frames/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:48
+-keep class jahirfiquitiva.apps.frames.sample.MyApplication { <init>(); }
+# Referenced at /home/travis/build/rajkale99/Frames/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:179
+-keep class jahirfiquitiva.libs.frames.ui.activities.CollectionActivity { <init>(); }
+# Referenced at /home/travis/build/rajkale99/Frames/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:183
+-keep class jahirfiquitiva.libs.frames.ui.activities.CreditsActivity { <init>(); }
+# Referenced at /home/travis/build/rajkale99/Frames/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:172
+-keep class jahirfiquitiva.libs.frames.ui.activities.FramesActivity { <init>(); }
+# Referenced at /home/travis/build/rajkale99/Frames/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:193
+-keep class jahirfiquitiva.libs.frames.ui.activities.MuzeiSettingsActivity { <init>(); }
+# Referenced at /home/travis/build/rajkale99/Frames/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:186
+-keep class jahirfiquitiva.libs.frames.ui.activities.SettingsActivity { <init>(); }
+# Referenced at /home/travis/build/rajkale99/Frames/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:176
+-keep class jahirfiquitiva.libs.frames.ui.activities.ViewerActivity { <init>(); }
+# Referenced at /home/travis/.gradle/caches/transforms-2/files-2.1/ba2d17162d5e89f9f4f8382304595d5e/res/layout/abc_alert_dialog_title_material.xml:56
+# Referenced at /home/travis/.gradle/caches/transforms-2/files-2.1/ba2d17162d5e89f9f4f8382304595d5e/res/layout/abc_alert_dialog_material.xml:52
+# Referenced at /home/travis/.gradle/caches/transforms-2/files-2.1/ba2d17162d5e89f9f4f8382304595d5e/res/layout/abc_alert_dialog_button_bar_material.xml:43
+-keep class android.widget.Space { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/travis/.gradle/caches/transforms-2/files-2.1/ba2d17162d5e89f9f4f8382304595d5e/res/layout/abc_select_dialog_material.xml:23
+-keep class androidx.appcompat.app.AlertController$RecycleListView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/travis/.gradle/caches/transforms-2/files-2.1/ba2d17162d5e89f9f4f8382304595d5e/res/layout/abc_action_menu_item_layout.xml:17
+-keep class androidx.appcompat.view.menu.ActionMenuItemView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/travis/.gradle/caches/transforms-2/files-2.1/ba2d17162d5e89f9f4f8382304595d5e/res/layout/abc_expanded_menu_layout.xml:17
+-keep class androidx.appcompat.view.menu.ExpandedMenuView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/travis/.gradle/caches/transforms-2/files-2.1/ba2d17162d5e89f9f4f8382304595d5e/res/layout/abc_popup_menu_item_layout.xml:17
+# Referenced at /home/travis/.gradle/caches/transforms-2/files-2.1/ba2d17162d5e89f9f4f8382304595d5e/res/layout/abc_list_menu_item_layout.xml:17
+# Referenced at /home/travis/.gradle/caches/transforms-2/files-2.1/ba2d17162d5e89f9f4f8382304595d5e/res/layout/abc_cascading_menu_item_layout.xml:20
+-keep class androidx.appcompat.view.menu.ListMenuItemView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/travis/.gradle/caches/transforms-2/files-2.1/ba2d17162d5e89f9f4f8382304595d5e/res/layout/abc_screen_toolbar.xml:27
+-keep class androidx.appcompat.widget.ActionBarContainer { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/travis/.gradle/caches/transforms-2/files-2.1/ba2d17162d5e89f9f4f8382304595d5e/res/layout/abc_screen_toolbar.xml:43
+# Referenced at /home/travis/.gradle/caches/transforms-2/files-2.1/ba2d17162d5e89f9f4f8382304595d5e/res/layout/abc_action_mode_bar.xml:19
+-keep class androidx.appcompat.widget.ActionBarContextView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/travis/.gradle/caches/transforms-2/files-2.1/ba2d17162d5e89f9f4f8382304595d5e/res/layout/abc_screen_toolbar.xml:17
+-keep class androidx.appcompat.widget.ActionBarOverlayLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/travis/.gradle/caches/transforms-2/files-2.1/ba2d17162d5e89f9f4f8382304595d5e/res/layout/abc_action_menu_layout.xml:17
+-keep class androidx.appcompat.widget.ActionMenuView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/travis/.gradle/caches/transforms-2/files-2.1/ba2d17162d5e89f9f4f8382304595d5e/res/layout/abc_activity_chooser_view.xml:19
+-keep class androidx.appcompat.widget.ActivityChooserView$InnerLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/travis/.gradle/caches/transforms-2/files-2.1/ba2d17162d5e89f9f4f8382304595d5e/res/layout/abc_alert_dialog_material.xml:18
+-keep class androidx.appcompat.widget.AlertDialogLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/travis/.gradle/caches/transforms-2/files-2.1/ceee1252f5de4ddbc9a930f6b9ed7908/res/layout/item_split_button.xml:18
+-keep class androidx.appcompat.widget.AppCompatButton { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/travis/.gradle/caches/transforms-2/files-2.1/44c6f52b650b1c86d232351b78812c28/res/layout/md_listitem_multichoice.xml:6
+# Referenced at /home/travis/.gradle/caches/transforms-2/files-2.1/44c6f52b650b1c86d232351b78812c28/res/layout/md_dialog_base.xml:48
+# Referenced at /home/travis/build/rajkale99/Frames/library/build/intermediates/packaged_res/release/layout/activity_muzei_settings.xml:127
+-keep class androidx.appcompat.widget.AppCompatCheckBox { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/travis/.gradle/caches/transforms-2/files-2.1/44c6f52b650b1c86d232351b78812c28/res/layout/md_listitem_singlechoice.xml:6
+-keep class androidx.appcompat.widget.AppCompatRadioButton { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/travis/.gradle/caches/transforms-2/files-2.1/ba2d17162d5e89f9f4f8382304595d5e/res/layout/abc_alert_dialog_button_bar_material.xml:26
+-keep class androidx.appcompat.widget.ButtonBarLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/travis/.gradle/caches/transforms-2/files-2.1/ba2d17162d5e89f9f4f8382304595d5e/res/layout/abc_screen_content_include.xml:19
+-keep class androidx.appcompat.widget.ContentFrameLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/travis/.gradle/caches/transforms-2/files-2.1/ba2d17162d5e89f9f4f8382304595d5e/res/layout/abc_alert_dialog_title_material.xml:45
+-keep class androidx.appcompat.widget.DialogTitle { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/travis/.gradle/caches/transforms-2/files-2.1/ba2d17162d5e89f9f4f8382304595d5e/res/layout/abc_screen_simple_overlay_action_mode.xml:23
+-keep class androidx.appcompat.widget.FitWindowsFrameLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/travis/.gradle/caches/transforms-2/files-2.1/ba2d17162d5e89f9f4f8382304595d5e/res/layout/abc_screen_simple.xml:17
+# Referenced at /home/travis/.gradle/caches/transforms-2/files-2.1/ba2d17162d5e89f9f4f8382304595d5e/res/layout/abc_dialog_title_material.xml:22
+-keep class androidx.appcompat.widget.FitWindowsLinearLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/travis/.gradle/caches/transforms-2/files-2.1/ba2d17162d5e89f9f4f8382304595d5e/res/layout/abc_search_view.xml:75
+-keep class androidx.appcompat.widget.SearchView$SearchAutoComplete { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/travis/.gradle/caches/transforms-2/files-2.1/4abdad15b92db22b1caa4a516c698df7/res/layout/activity_license.xml:14
+# Referenced at /home/travis/.gradle/caches/transforms-2/files-2.1/ba2d17162d5e89f9f4f8382304595d5e/res/layout/abc_screen_toolbar.xml:36
+-keep class androidx.appcompat.widget.Toolbar { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/travis/.gradle/caches/transforms-2/files-2.1/ba2d17162d5e89f9f4f8382304595d5e/res/layout/abc_screen_simple_overlay_action_mode.xml:32
+# Referenced at /home/travis/.gradle/caches/transforms-2/files-2.1/ba2d17162d5e89f9f4f8382304595d5e/res/layout/abc_screen_simple.xml:25
+-keep class androidx.appcompat.widget.ViewStubCompat { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/travis/.gradle/caches/transforms-2/files-2.1/1849b9d82732339eb250b363c5c7a52f/res/layout/design_bottom_sheet_dialog.xml:26
+# Referenced at /home/travis/build/rajkale99/Frames/library/build/intermediates/packaged_res/release/layout/activity_muzei_settings.xml:17
+# Referenced at /home/travis/build/rajkale99/Frames/library/build/intermediates/packaged_res/release/layout/activity_main.xml:17
+# Referenced at /home/travis/.gradle/caches/transforms-2/files-2.1/4abdad15b92db22b1caa4a516c698df7/res/layout/activity_license.xml:2
+# Referenced at /home/travis/build/rajkale99/Frames/library/build/intermediates/packaged_res/release/layout/activity_credits.xml:17
+# Referenced at /home/travis/build/rajkale99/Frames/library/build/intermediates/packaged_res/release/layout/activity_collection_settings.xml:17
+-keep class androidx.coordinatorlayout.widget.CoordinatorLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/travis/build/rajkale99/Frames/library/build/intermediates/packaged_res/release/layout/activity_muzei_settings.xml:43
+# Referenced at /home/travis/.gradle/caches/transforms-2/files-2.1/ba2d17162d5e89f9f4f8382304595d5e/res/layout/abc_alert_dialog_material.xml:41
+-keep class androidx.core.widget.NestedScrollView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/travis/build/rajkale99/Frames/library/build/intermediates/packaged_res/release/layout/info_dialog.xml:32
+# Referenced at /home/travis/build/rajkale99/Frames/library/build/intermediates/packaged_res/release/layout/actions_bottom_sheet.xml:32
+-keep class androidx.recyclerview.widget.RecyclerView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/travis/build/rajkale99/Frames/library/build/intermediates/packaged_res/release/layout/section_with_swipe_refresh.xml:17
+-keep class androidx.swiperefreshlayout.widget.SwipeRefreshLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/travis/build/rajkale99/Frames/library/build/intermediates/packaged_res/release/layout/activity_main.xml:48
+-keep class androidx.viewpager.widget.ViewPager { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/travis/.gradle/caches/transforms-2/files-2.1/44c6f52b650b1c86d232351b78812c28/res/layout/md_dialog_base.xml:57
+-keep class com.afollestad.materialdialogs.internal.button.DialogActionButton { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/travis/.gradle/caches/transforms-2/files-2.1/44c6f52b650b1c86d232351b78812c28/res/layout/md_dialog_base.xml:42
+-keep class com.afollestad.materialdialogs.internal.button.DialogActionButtonLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/travis/.gradle/caches/transforms-2/files-2.1/69c72ff139c3d7583580276c74bf3e67/res/layout/md_file_chooser_base.xml:10
+# Referenced at /home/travis/.gradle/caches/transforms-2/files-2.1/44c6f52b650b1c86d232351b78812c28/res/layout/md_dialog_stub_recyclerview.xml:2
+-keep class com.afollestad.materialdialogs.internal.list.DialogRecyclerView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/travis/.gradle/caches/transforms-2/files-2.1/44c6f52b650b1c86d232351b78812c28/res/layout/md_dialog_base.xml:36
+-keep class com.afollestad.materialdialogs.internal.main.DialogContentLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/travis/.gradle/caches/transforms-2/files-2.1/44c6f52b650b1c86d232351b78812c28/res/layout/md_dialog_base.xml:2
+-keep class com.afollestad.materialdialogs.internal.main.DialogLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/travis/.gradle/caches/transforms-2/files-2.1/44c6f52b650b1c86d232351b78812c28/res/layout/md_dialog_stub_scrollview.xml:2
+-keep class com.afollestad.materialdialogs.internal.main.DialogScrollView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/travis/.gradle/caches/transforms-2/files-2.1/44c6f52b650b1c86d232351b78812c28/res/layout/md_dialog_base.xml:10
+-keep class com.afollestad.materialdialogs.internal.main.DialogTitleLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/travis/.gradle/caches/transforms-2/files-2.1/44c6f52b650b1c86d232351b78812c28/res/layout/md_listitem_singlechoice.xml:10
+# Referenced at /home/travis/.gradle/caches/transforms-2/files-2.1/44c6f52b650b1c86d232351b78812c28/res/layout/md_listitem_multichoice.xml:10
+# Referenced at /home/travis/.gradle/caches/transforms-2/files-2.1/44c6f52b650b1c86d232351b78812c28/res/layout/md_listitem.xml:6
+# Referenced at /home/travis/.gradle/caches/transforms-2/files-2.1/44c6f52b650b1c86d232351b78812c28/res/layout/md_dialog_stub_message.xml:2
+# Referenced at /home/travis/.gradle/caches/transforms-2/files-2.1/44c6f52b650b1c86d232351b78812c28/res/layout/md_dialog_base.xml:25
+-keep class com.afollestad.materialdialogs.internal.rtl.RtlTextView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/travis/build/rajkale99/Frames/library/build/intermediates/packaged_res/release/layout/activity_viewer.xml:73
+# Referenced at /home/travis/.gradle/caches/transforms-2/files-2.1/4abdad15b92db22b1caa4a516c698df7/res/layout/activity_license.xml:9
+-keep class com.google.android.material.appbar.AppBarLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/travis/.gradle/caches/transforms-2/files-2.1/1849b9d82732339eb250b363c5c7a52f/res/layout/design_bottom_navigation_item.xml:27
+-keep class com.google.android.material.internal.BaselineLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/travis/.gradle/caches/transforms-2/files-2.1/1849b9d82732339eb250b363c5c7a52f/res/layout/design_text_input_password_icon.xml:18
+-keep class com.google.android.material.internal.CheckableImageButton { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/travis/.gradle/caches/transforms-2/files-2.1/1849b9d82732339eb250b363c5c7a52f/res/layout/design_navigation_item.xml:17
+-keep class com.google.android.material.internal.NavigationMenuItemView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/travis/.gradle/caches/transforms-2/files-2.1/1849b9d82732339eb250b363c5c7a52f/res/layout/design_navigation_menu.xml:17
+-keep class com.google.android.material.internal.NavigationMenuView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/travis/.gradle/caches/transforms-2/files-2.1/1849b9d82732339eb250b363c5c7a52f/res/layout/mtrl_layout_snackbar.xml:18
+# Referenced at /home/travis/.gradle/caches/transforms-2/files-2.1/1849b9d82732339eb250b363c5c7a52f/res/layout/design_layout_snackbar.xml:18
+-keep class com.google.android.material.snackbar.Snackbar$SnackbarLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/travis/.gradle/caches/transforms-2/files-2.1/1849b9d82732339eb250b363c5c7a52f/res/layout/mtrl_layout_snackbar_include.xml:18
+# Referenced at /home/travis/.gradle/caches/transforms-2/files-2.1/1849b9d82732339eb250b363c5c7a52f/res/layout/design_layout_snackbar_include.xml:18
+-keep class com.google.android.material.snackbar.SnackbarContentLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/travis/.gradle/caches/transforms-2/files-2.1/774bde8fd4ba9a517b55b4bec2a41a00/res/layout/md_dialog_stub_input.xml:18
+-keep class com.google.android.material.textfield.TextInputEditText { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/travis/.gradle/caches/transforms-2/files-2.1/774bde8fd4ba9a517b55b4bec2a41a00/res/layout/md_dialog_stub_input.xml:13
+-keep class com.google.android.material.textfield.TextInputLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/travis/build/rajkale99/Frames/library/build/intermediates/packaged_res/release/layout/info_color.xml:34
+-keep class com.jahirfiquitiva.chip.ChipView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/travis/build/rajkale99/Frames/library/build/intermediates/packaged_res/release/layout/section_layout.xml:42
+-keep class com.pluscubed.recyclerfastscroll.RecyclerFastScroller { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/travis/build/rajkale99/Frames/library/build/intermediates/packaged_res/release/layout/activity_viewer.xml:82
+# Referenced at /home/travis/build/rajkale99/Frames/library/build/intermediates/packaged_res/release/layout/activity_muzei_settings.xml:33
+# Referenced at /home/travis/build/rajkale99/Frames/library/build/intermediates/packaged_res/release/layout/activity_main.xml:29
+# Referenced at /home/travis/build/rajkale99/Frames/library/build/intermediates/packaged_res/release/layout/activity_credits.xml:30
+# Referenced at /home/travis/build/rajkale99/Frames/library/build/intermediates/packaged_res/release/layout/activity_collection_settings.xml:31
+-keep class jahirfiquitiva.libs.frames.ui.widgets.CustomToolbar { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/travis/build/rajkale99/Frames/library/build/intermediates/packaged_res/release/layout/section_layout.xml:30
+-keep class jahirfiquitiva.libs.frames.ui.widgets.EmptyViewRecyclerView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/travis/build/rajkale99/Frames/library/build/intermediates/packaged_res/release/layout/activity_main.xml:38
+-keep class jahirfiquitiva.libs.kext.ui.layouts.CustomTabLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/travis/build/rajkale99/Frames/library/build/intermediates/packaged_res/release/layout/activity_muzei_settings.xml:25
+# Referenced at /home/travis/build/rajkale99/Frames/library/build/intermediates/packaged_res/release/layout/activity_main.xml:23
+# Referenced at /home/travis/build/rajkale99/Frames/library/build/intermediates/packaged_res/release/layout/activity_credits.xml:24
+# Referenced at /home/travis/build/rajkale99/Frames/library/build/intermediates/packaged_res/release/layout/activity_collection_settings.xml:24
+-keep class jahirfiquitiva.libs.kext.ui.layouts.FixedElevationAppBarLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/travis/build/rajkale99/Frames/library/build/intermediates/packaged_res/release/layout/item_credits.xml:73
+-keep class jahirfiquitiva.libs.kext.ui.layouts.SplitButtonsLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/travis/build/rajkale99/Frames/library/build/intermediates/packaged_res/release/layout/item_wallpaper_feat.xml:28
+# Referenced at /home/travis/build/rajkale99/Frames/library/build/intermediates/packaged_res/release/layout/item_collection_filled.xml:26
+# Referenced at /home/travis/build/rajkale99/Frames/library/build/intermediates/packaged_res/release/layout/item_collection.xml:26
+-keep class jahirfiquitiva.libs.kext.ui.widgets.LandscapeImageView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/travis/build/rajkale99/Frames/library/build/intermediates/packaged_res/release/layout/info_item.xml:32
+-keep class jahirfiquitiva.libs.kext.ui.widgets.MaterialIconView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/travis/build/rajkale99/Frames/library/build/intermediates/packaged_res/release/layout/activity_viewer.xml:43
+-keep class jahirfiquitiva.libs.kext.ui.widgets.SquaredImageView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/travis/build/rajkale99/Frames/library/build/intermediates/packaged_res/release/layout/item_wallpaper.xml:28
+-keep class jahirfiquitiva.libs.kext.ui.widgets.VerticalImageView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/travis/build/rajkale99/Frames/library/build/intermediates/packaged_res/release/layout/activity_viewer.xml:25
+-keep class jahirfiquitiva.libs.ziv.ZoomableImageView { <init>(android.content.Context, android.util.AttributeSet); }
+

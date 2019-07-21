@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/travis/build/rajkale99/Frames/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-sw600dp-land-v13/values-sw600dp-land-v13.xml",
+            "map": [
+                {
+                    "source": "/home/travis/build/rajkale99/Frames/library/build/intermediates/packaged_res/release/values-sw600dp-land-v13/values-sw600dp-land-v13.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,93",
+                        "endColumns": "37,49",
+                        "endOffsets": "88,138"
+                    }
+                }
+            ]
+        }
+    ]
+}
