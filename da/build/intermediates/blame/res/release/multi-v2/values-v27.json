@@ -4,7 +4,7 @@
             "outputFile": "/home/travis/build/rajkale99/Frames/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-v27/values-v27.xml",
             "map": [
                 {
-                    "source": "/home/travis/.gradle/caches/transforms-2/files-2.1/ceee1252f5de4ddbc9a930f6b9ed7908/res/values-v27/values-v27.xml",
+                    "source": "/home/travis/.gradle/caches/transforms-2/files-2.1/7903a5ba8289a8dcfc6c743c40e9399e/res/values-v27/values-v27.xml",
                     "from": {
                         "startLines": "2,6,13",
                         "startColumns": "4,4,4",

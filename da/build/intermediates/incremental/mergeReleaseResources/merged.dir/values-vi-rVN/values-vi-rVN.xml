@@ -57,7 +57,6 @@
     <string name="file_create_new">Tạo mới</string>
     <string name="file_exists">Hình nền đã được tải về. Bạn có muốn tải về để thay thế nó?</string>
     <string name="file_replace">Thay thế</string>
-    <string name="frames_dashboard">Khung bảng</string>
     <string name="home_lock_screen">Màn hình chính và khóa</string>
     <string name="home_screen">Màn hình chính</string>
     <string name="hours">Giờ</string>
@@ -77,6 +76,7 @@
     <string name="loading">Đang tải…</string>
     <string name="loading_section">Tải nội dung...</string>
     <string name="lock_screen">Màn hình khoá</string>
+    <string name="lpaper_dashboard">Khung bảng</string>
     <string name="minutes">Phút</string>
     <string name="muzei_not_connected_content">Xin lỗi, nhưng để có thể lựa chọn hoặc thay đổi các bộ sưu tập bạn muốn app có hình nền, bạn phải kết nối Internet. Xin vui lòng thử lại sau.</string>
     <string name="muzei_not_connected_title">Không được kết nối

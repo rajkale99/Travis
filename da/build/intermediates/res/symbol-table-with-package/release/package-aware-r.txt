@@ -1,4 +1,4 @@
-jahirfiquitiva.apps.frames.sample
+com.legion.lpaper
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -553,7 +553,7 @@ bool accent_in_tabs
 bool enable_colored_tiles
 bool enable_filled_collection_preview
 bool immediate_download
-bool isFrames
+bool isLPaper
 bool isTablet
 bool mtrl_btn_textappearance_all_caps
 bool notifications_enabled_by_default
@@ -1286,7 +1286,6 @@ id design_menu_item_action_area_stub
 id design_menu_item_text
 id design_navigation_view
 id disableHome
-id donate
 id download_button
 id download_container
 id edit_query
@@ -1607,7 +1606,7 @@ layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
 layout viewer_bottom_bar
 menu about_settings_menu
-menu frames_menu
+menu lpaper_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
 raw asl_20_full
@@ -1757,8 +1756,6 @@ string file_replace
 string files_default_empty_text
 string files_new_folder
 string files_new_folder_hint
-string frames_dashboard
-string frames_notifications_action
 string hide_bottom_view_on_scroll_behavior
 string home_lock_screen
 string home_screen
@@ -1788,6 +1785,8 @@ string load_hi_res_pictures_title
 string loading
 string loading_section
 string lock_screen
+string lpaper_dashboard
+string lpaper_notifications_action
 string minutes
 string mtrl_chip_close_icon_content_description
 string muzei_not_connected_content
@@ -2066,12 +2065,12 @@ style DarkPopUp
 style DarkTheme
 style DarkTheme_SplashScreen
 style EmptyActivity
-style Frames_Base_Amoled
-style Frames_Base_Clear
-style Frames_Base_Dark
-style Frames_Base_Light
-style Frames_BaseDark
-style Frames_BaseLight
+style LPaper_Base_Amoled
+style LPaper_Base_Clear
+style LPaper_Base_Dark
+style LPaper_Base_Light
+style LPaper_BaseDark
+style LPaper_BaseLight
 style LightPopUp
 style LightTheme
 style LightTheme_SplashScreen

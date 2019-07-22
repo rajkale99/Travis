@@ -57,7 +57,6 @@
     <string name="file_create_new">Buat baru</string>
     <string name="file_exists">Wallpaper sudah diunduh. Apakah anda ingin mengunduh untuk menggantikannya?</string>
     <string name="file_replace">Menggantikan</string>
-    <string name="frames_dashboard">Bingkai Dasbor</string>
     <string name="home_lock_screen">Beranda dan kunci layar</string>
     <string name="home_screen">Layar Beranda</string>
     <string name="hours">Jam</string>
@@ -77,6 +76,7 @@
     <string name="loading">Memuat…</string>
     <string name="loading_section">Bagian pemuatan…</string>
     <string name="lock_screen">Kunci layar</string>
+    <string name="lpaper_dashboard">Bingkai Dasbor</string>
     <string name="minutes">Menit</string>
     <string name="muzei_not_connected_content">Maaf, tapi bisa untuk memilih atau mengganti koleksi, anda ingin aplikasi untuk mengambil bentuk wallpaper, anda harus terhubung ke internet. Silahkan coba lagi nanti.</string>
     <string name="muzei_not_connected_title">Tidak terhubung ke internet</string>

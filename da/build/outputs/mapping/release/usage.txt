@@ -962,6 +962,7 @@ androidx.appcompat.app.AlertDialog$Builder:
     853:857:public androidx.appcompat.app.AlertDialog$Builder setSingleChoiceItems(android.widget.ListAdapter,int,android.content.DialogInterface$OnClickListener)
     868:869:public androidx.appcompat.app.AlertDialog$Builder setOnItemSelectedListener(android.widget.AdapterView$OnItemSelectedListener)
     881:884:public androidx.appcompat.app.AlertDialog$Builder setView(int)
+    902:905:public androidx.appcompat.app.AlertDialog$Builder setView(android.view.View)
     934:941:public androidx.appcompat.app.AlertDialog$Builder setView(android.view.View,int,int,int,int)
     956:957:public androidx.appcompat.app.AlertDialog$Builder setInverseBackgroundForced(boolean)
     965:966:public androidx.appcompat.app.AlertDialog$Builder setRecycleOnMeasureEnabled(boolean)
@@ -7096,27 +7097,15 @@ com.pluscubed.recyclerfastscroll.RecyclerFastScrollerUtilsKt:
 de.psdev.licensesdialog.BuildConfig
 de.psdev.licensesdialog.LicenseResolver:
     private static final int INITIAL_LICENSES_COUNT
+    84:88:public static de.psdev.licensesdialog.licenses.License read(java.lang.String)
     92:93:private LicenseResolver()
-de.psdev.licensesdialog.LicensesDialog:
-    73:74:public de.psdev.licensesdialog.LicensesDialog setOnDismissListener(android.content.DialogInterface$OnDismissListener)
-de.psdev.licensesdialog.LicensesDialog$Builder:
-    177:178:public de.psdev.licensesdialog.LicensesDialog$Builder setTitle(java.lang.String)
-    182:183:public de.psdev.licensesdialog.LicensesDialog$Builder setCloseText(int)
-    187:188:public de.psdev.licensesdialog.LicensesDialog$Builder setCloseText(java.lang.String)
-    198:200:public de.psdev.licensesdialog.LicensesDialog$Builder setNotices(de.psdev.licensesdialog.model.Notices)
-    204:204:public de.psdev.licensesdialog.LicensesDialog$Builder setNotices(de.psdev.licensesdialog.model.Notice)
-    208:211:de.psdev.licensesdialog.LicensesDialog$Builder setNotices(java.lang.String)
-    215:216:public de.psdev.licensesdialog.LicensesDialog$Builder setNoticesCssStyle(int)
-    220:221:public de.psdev.licensesdialog.LicensesDialog$Builder setNoticesCssStyle(java.lang.String)
-    235:236:public de.psdev.licensesdialog.LicensesDialog$Builder setThemeResourceId(int)
-    245:246:public de.psdev.licensesdialog.LicensesDialog$Builder setDividerColorId(int)
-    292:294:private static de.psdev.licensesdialog.model.Notices getSingleNoticeNotices(de.psdev.licensesdialog.model.Notice)
+de.psdev.licensesdialog.LicensesDialog
+de.psdev.licensesdialog.LicensesDialog$1
+de.psdev.licensesdialog.LicensesDialog$Builder
 de.psdev.licensesdialog.LicensesDialogFragment
 de.psdev.licensesdialog.LicensesDialogFragment$Builder
-de.psdev.licensesdialog.NoticesHtmlBuilder:
-    54:56:public de.psdev.licensesdialog.NoticesHtmlBuilder setNotice(de.psdev.licensesdialog.model.Notice)
-de.psdev.licensesdialog.NoticesXmlParser:
-    33:34:private NoticesXmlParser()
+de.psdev.licensesdialog.NoticesHtmlBuilder
+de.psdev.licensesdialog.NoticesXmlParser
 de.psdev.licensesdialog.R:
     10:10:private R()
 de.psdev.licensesdialog.R$anim
@@ -7130,8 +7119,7 @@ de.psdev.licensesdialog.R$integer
 de.psdev.licensesdialog.R$layout
 de.psdev.licensesdialog.R$raw:
     780:780:private R$raw()
-de.psdev.licensesdialog.R$string:
-    817:817:private R$string()
+de.psdev.licensesdialog.R$string
 de.psdev.licensesdialog.R$style
 de.psdev.licensesdialog.R$styleable
 de.psdev.licensesdialog.licenses.ApacheSoftwareLicense20:
@@ -7149,32 +7137,10 @@ de.psdev.licensesdialog.licenses.MITLicense:
     private static final long serialVersionUID
 de.psdev.licensesdialog.licenses.MozillaPublicLicense11:
     private static final long serialVersionUID
-de.psdev.licensesdialog.model.Notice:
-    45:46:public void setName(java.lang.String)
-    49:50:public void setUrl(java.lang.String)
-    53:54:public void setCopyright(java.lang.String)
-    57:58:public void setLicense(de.psdev.licensesdialog.licenses.License)
-jahirfiquitiva.apps.frames.sample.BuildConfig
-jahirfiquitiva.apps.frames.sample.R
-jahirfiquitiva.apps.frames.sample.R$anim
-jahirfiquitiva.apps.frames.sample.R$animator
-jahirfiquitiva.apps.frames.sample.R$array
-jahirfiquitiva.apps.frames.sample.R$attr
-jahirfiquitiva.apps.frames.sample.R$bool
-jahirfiquitiva.apps.frames.sample.R$color
-jahirfiquitiva.apps.frames.sample.R$dimen
-jahirfiquitiva.apps.frames.sample.R$drawable
-jahirfiquitiva.apps.frames.sample.R$id
-jahirfiquitiva.apps.frames.sample.R$integer
-jahirfiquitiva.apps.frames.sample.R$interpolator
-jahirfiquitiva.apps.frames.sample.R$layout
-jahirfiquitiva.apps.frames.sample.R$menu
-jahirfiquitiva.apps.frames.sample.R$mipmap
-jahirfiquitiva.apps.frames.sample.R$raw
-jahirfiquitiva.apps.frames.sample.R$string
-jahirfiquitiva.apps.frames.sample.R$style
-jahirfiquitiva.apps.frames.sample.R$styleable
-jahirfiquitiva.apps.frames.sample.R$xml
+de.psdev.licensesdialog.model.Notice
+de.psdev.licensesdialog.model.Notice$1
+de.psdev.licensesdialog.model.Notices
+de.psdev.licensesdialog.model.Notices$1
 kotlin.ArrayIntrinsicsKt
 kotlin.BuilderInference
 kotlin.Deprecated

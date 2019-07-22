@@ -57,7 +57,6 @@
     <string name="file_create_new">Créer un nouveau</string>
     <string name="file_exists">Ce fond d\'écran a déjà été téléchargé. Voulez le télécharger pour le remplacer?</string>
     <string name="file_replace">Remplacer</string>
-    <string name="frames_dashboard">Frames Tableau de Bord</string>
     <string name="home_lock_screen">Ecrans d\'accueil et de vérrouillage</string>
     <string name="home_screen">Ecran d\'accueil</string>
     <string name="hours">Heures</string>
@@ -77,6 +76,7 @@
     <string name="loading">Chargement...</string>
     <string name="loading_section">Loading content…</string>
     <string name="lock_screen">Ecran de vérrouillage</string>
+    <string name="lpaper_dashboard">LPaper Tableau de Bord</string>
     <string name="minutes">Minutes</string>
     <string name="muzei_not_connected_content">Désolé, mais pour pouvoir choisir ou changer de collections provenant de l\'application dont vous voulez les fonds d\'écran, vous devez être connecté à Internet. Merci de réessayer plus tard.</string>
     <string name="muzei_not_connected_title">Non connecté à Internet</string>

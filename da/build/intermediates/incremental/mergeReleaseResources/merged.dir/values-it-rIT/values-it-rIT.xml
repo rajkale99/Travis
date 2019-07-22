@@ -57,7 +57,6 @@
     <string name="file_create_new">Crea nuovo</string>
     <string name="file_exists">Lo sfondo è già stato scaricato. Vuoi scaricare questo per sostituirlo?</string>
     <string name="file_replace">Sostituisci</string>
-    <string name="frames_dashboard">Dashboard Frames</string>
     <string name="home_lock_screen">Schermata home e di blocco</string>
     <string name="home_screen">Schermata Home</string>
     <string name="hours">Ore</string>
@@ -77,6 +76,7 @@
     <string name="loading">Caricamento...</string>
     <string name="loading_section">Caricamento contenuto…</string>
     <string name="lock_screen">Schermata di blocco</string>
+    <string name="lpaper_dashboard">Dashboard LPaper</string>
     <string name="minutes">Minuti</string>
     <string name="muzei_not_connected_content">Spiacenti, ma per poter scegliere o modificare le collezioni che desideri che l\'app prenda gli sfondi da, devi essere collegato a Internet. Per favore riprova più tardi.</string>
     <string name="muzei_not_connected_title">Non connesso a Internet</string>

@@ -57,7 +57,6 @@
     <string name="file_create_new">Opret ny</string>
     <string name="file_exists">Bagground er allerede hentet. Vil du hente for at erstatte?</string>
     <string name="file_replace">Erstat</string>
-    <string name="frames_dashboard">Frames instrumentpanel</string>
     <string name="home_lock_screen">Startskærm og låseskærm</string>
     <string name="home_screen">Startskærm</string>
     <string name="hours">Timer</string>
@@ -77,6 +76,7 @@
     <string name="loading">Indlæser…</string>
     <string name="loading_section">Indlæser indhold…</string>
     <string name="lock_screen">Låse skærm</string>
+    <string name="lpaper_dashboard">LPaper instrumentpanel</string>
     <string name="minutes">Minutter</string>
     <string name="muzei_not_connected_content">Beklager, men for at kunne vælge eller ændre den samling du vil have appen til at tage baggrundende fra, skal du være tilsluttet til internettet.
 Prøv igen senere.</string>

@@ -57,7 +57,6 @@
     <string name="file_create_new">Creëer nieuw</string>
     <string name="file_exists">Achtergrond is al gedownload. Wil je het opnieuw downloaden om de huidige achtergrond te vervangen?</string>
     <string name="file_replace">Vervang</string>
-    <string name="frames_dashboard">Frames Dashboard</string>
     <string name="home_lock_screen">Home en vergrendel scherms</string>
     <string name="home_screen">Home scherm</string>
     <string name="hours">Uren</string>
@@ -76,6 +75,7 @@
     <string name="loading">Laden...</string>
     <string name="loading_section">Content laden...</string>
     <string name="lock_screen">Vergrendel scherm</string>
+    <string name="lpaper_dashboard">LPaper Dashboard</string>
     <string name="minutes">Minuten</string>
     <string name="muzei_not_connected_content">Sorry, maar om collecties waarvan je de app de achtergronden van wil halen kan je alleen kiezen of veranderen als je bent verbonden met het internet. Probeer het alsjeblieft later opnieuw.</string>
     <string name="muzei_not_connected_title">Niet verbonden met het internet</string>

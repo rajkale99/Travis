@@ -57,7 +57,6 @@
     <string name="file_create_new">Luo uusi</string>
     <string name="file_exists">Taustakuva on jo ladattu. Haluatko ladata ja korvata sen?</string>
     <string name="file_replace">Korvaa</string>
-    <string name="frames_dashboard">Frames -ohjauspaneeli</string>
     <string name="home_lock_screen">Koti- ja lukitusnäytöt</string>
     <string name="home_screen">Kotinäyttö</string>
     <string name="hours">Tuntia</string>
@@ -77,6 +76,7 @@
     <string name="loading">Ladataan…</string>
     <string name="loading_section">Lataa sisältöä…</string>
     <string name="lock_screen">Lukitusnäyttö</string>
+    <string name="lpaper_dashboard">LPaper -ohjauspaneeli</string>
     <string name="minutes">Minuuttia</string>
     <string name="muzei_not_connected_content">Pahoittelut, mutta jotta voit valita tai vaihtaa kokoelmaa josta sovellus ottaa taustakuvat, sinun täytyy olla yhteydessä internettiin. Yritä uudelleen myöhemmin.</string>
     <string name="muzei_not_connected_title">Ei Internet-yhteyttä</string>

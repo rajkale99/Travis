@@ -7,23 +7,23 @@
 # Referenced at /home/travis/build/rajkale99/Frames/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:196
 -keep class com.github.javiersantos.piracychecker.activities.LicenseActivity { <init>(); }
 # Referenced at /home/travis/build/rajkale99/Frames/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:74
--keep class jahirfiquitiva.apps.frames.sample.MainActivity { <init>(); }
+-keep class com.legion.lpaper.app.MainActivity { <init>(); }
 # Referenced at /home/travis/build/rajkale99/Frames/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:119
--keep class jahirfiquitiva.apps.frames.sample.MuzeiService { <init>(); }
+-keep class com.legion.lpaper.app.MuzeiService { <init>(); }
 # Referenced at /home/travis/build/rajkale99/Frames/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:48
--keep class jahirfiquitiva.apps.frames.sample.MyApplication { <init>(); }
+-keep class com.legion.lpaper.app.MyApplication { <init>(); }
 # Referenced at /home/travis/build/rajkale99/Frames/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:179
--keep class jahirfiquitiva.libs.frames.ui.activities.CollectionActivity { <init>(); }
+-keep class com.legion.lpaper.ui.activities.CollectionActivity { <init>(); }
 # Referenced at /home/travis/build/rajkale99/Frames/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:183
--keep class jahirfiquitiva.libs.frames.ui.activities.CreditsActivity { <init>(); }
+-keep class com.legion.lpaper.ui.activities.CreditsActivity { <init>(); }
 # Referenced at /home/travis/build/rajkale99/Frames/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:172
--keep class jahirfiquitiva.libs.frames.ui.activities.FramesActivity { <init>(); }
+-keep class com.legion.lpaper.ui.activities.LPaperActivity { <init>(); }
 # Referenced at /home/travis/build/rajkale99/Frames/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:193
--keep class jahirfiquitiva.libs.frames.ui.activities.MuzeiSettingsActivity { <init>(); }
+-keep class com.legion.lpaper.ui.activities.MuzeiSettingsActivity { <init>(); }
 # Referenced at /home/travis/build/rajkale99/Frames/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:186
--keep class jahirfiquitiva.libs.frames.ui.activities.SettingsActivity { <init>(); }
+-keep class com.legion.lpaper.ui.activities.SettingsActivity { <init>(); }
 # Referenced at /home/travis/build/rajkale99/Frames/app/build/intermediates/merged_manifests/release/AndroidManifest.xml:176
--keep class jahirfiquitiva.libs.frames.ui.activities.ViewerActivity { <init>(); }
+-keep class com.legion.lpaper.ui.activities.ViewerActivity { <init>(); }
 # Referenced at /home/travis/.gradle/caches/transforms-2/files-2.1/ba2d17162d5e89f9f4f8382304595d5e/res/layout/abc_alert_dialog_title_material.xml:56
 # Referenced at /home/travis/.gradle/caches/transforms-2/files-2.1/ba2d17162d5e89f9f4f8382304595d5e/res/layout/abc_alert_dialog_material.xml:52
 # Referenced at /home/travis/.gradle/caches/transforms-2/files-2.1/ba2d17162d5e89f9f4f8382304595d5e/res/layout/abc_alert_dialog_button_bar_material.xml:43
@@ -62,7 +62,7 @@
 # Referenced at /home/travis/.gradle/caches/transforms-2/files-2.1/ba2d17162d5e89f9f4f8382304595d5e/res/layout/abc_alert_dialog_material.xml:18
 -keep class androidx.appcompat.widget.AlertDialogLayout { <init>(android.content.Context, android.util.AttributeSet); }
 
-# Referenced at /home/travis/.gradle/caches/transforms-2/files-2.1/ceee1252f5de4ddbc9a930f6b9ed7908/res/layout/item_split_button.xml:18
+# Referenced at /home/travis/.gradle/caches/transforms-2/files-2.1/7903a5ba8289a8dcfc6c743c40e9399e/res/layout/item_split_button.xml:18
 -keep class androidx.appcompat.widget.AppCompatButton { <init>(android.content.Context, android.util.AttributeSet); }
 
 # Referenced at /home/travis/.gradle/caches/transforms-2/files-2.1/44c6f52b650b1c86d232351b78812c28/res/layout/md_listitem_multichoice.xml:6
@@ -184,18 +184,18 @@
 # Referenced at /home/travis/build/rajkale99/Frames/library/build/intermediates/packaged_res/release/layout/info_color.xml:34
 -keep class com.jahirfiquitiva.chip.ChipView { <init>(android.content.Context, android.util.AttributeSet); }
 
-# Referenced at /home/travis/build/rajkale99/Frames/library/build/intermediates/packaged_res/release/layout/section_layout.xml:42
--keep class com.pluscubed.recyclerfastscroll.RecyclerFastScroller { <init>(android.content.Context, android.util.AttributeSet); }
-
 # Referenced at /home/travis/build/rajkale99/Frames/library/build/intermediates/packaged_res/release/layout/activity_viewer.xml:82
 # Referenced at /home/travis/build/rajkale99/Frames/library/build/intermediates/packaged_res/release/layout/activity_muzei_settings.xml:33
 # Referenced at /home/travis/build/rajkale99/Frames/library/build/intermediates/packaged_res/release/layout/activity_main.xml:29
 # Referenced at /home/travis/build/rajkale99/Frames/library/build/intermediates/packaged_res/release/layout/activity_credits.xml:30
 # Referenced at /home/travis/build/rajkale99/Frames/library/build/intermediates/packaged_res/release/layout/activity_collection_settings.xml:31
--keep class jahirfiquitiva.libs.frames.ui.widgets.CustomToolbar { <init>(android.content.Context, android.util.AttributeSet); }
+-keep class com.legion.lpaper.ui.widgets.CustomToolbar { <init>(android.content.Context, android.util.AttributeSet); }
 
 # Referenced at /home/travis/build/rajkale99/Frames/library/build/intermediates/packaged_res/release/layout/section_layout.xml:30
--keep class jahirfiquitiva.libs.frames.ui.widgets.EmptyViewRecyclerView { <init>(android.content.Context, android.util.AttributeSet); }
+-keep class com.legion.lpaper.ui.widgets.EmptyViewRecyclerView { <init>(android.content.Context, android.util.AttributeSet); }
+
+# Referenced at /home/travis/build/rajkale99/Frames/library/build/intermediates/packaged_res/release/layout/section_layout.xml:42
+-keep class com.pluscubed.recyclerfastscroll.RecyclerFastScroller { <init>(android.content.Context, android.util.AttributeSet); }
 
 # Referenced at /home/travis/build/rajkale99/Frames/library/build/intermediates/packaged_res/release/layout/activity_main.xml:38
 -keep class jahirfiquitiva.libs.kext.ui.layouts.CustomTabLayout { <init>(android.content.Context, android.util.AttributeSet); }

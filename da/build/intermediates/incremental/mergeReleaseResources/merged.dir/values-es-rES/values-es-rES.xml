@@ -57,7 +57,6 @@
     <string name="file_create_new">Crear nuevo</string>
     <string name="file_exists">El fondo de pantalla ya se encuentra descargado. Deseas descargarlo o reemplazarlo?</string>
     <string name="file_replace">Reemplazar</string>
-    <string name="frames_dashboard">Aplicación Frames</string>
     <string name="home_lock_screen">Pantallas de inicio y bloqueo</string>
     <string name="home_screen">Pantalla de inicio</string>
     <string name="hours">Horas</string>
@@ -77,6 +76,7 @@
     <string name="loading">Cargando...</string>
     <string name="loading_section">Cargando contenido…</string>
     <string name="lock_screen">Pantalla de bloqueo</string>
+    <string name="lpaper_dashboard">Aplicación LPaper</string>
     <string name="minutes">Minutos</string>
     <string name="muzei_not_connected_content">Lo sentimos, pero para poder seleccionar o cambiar las colecciones de las que quieres que se tomen los fondos de pantalla, debes estar connectado a Internet. Por favor, intenta más tarde.</string>
     <string name="muzei_not_connected_title">Sin conexión a Internet</string>

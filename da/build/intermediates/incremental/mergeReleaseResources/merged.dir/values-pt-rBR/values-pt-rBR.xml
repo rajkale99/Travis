@@ -84,7 +84,6 @@
     <string name="file_create_new">Criar novo</string>
     <string name="file_exists">Papel de parede já está baixado. Você quer baixar e substituir?</string>
     <string name="file_replace">Substituir</string>
-    <string name="frames_dashboard">Painel de wallpapers</string>
     <string name="home_lock_screen">Tela principal e Bloqueio</string>
     <string name="home_screen">Tela principal</string>
     <string name="hours">Horas</string>
@@ -103,6 +102,7 @@
     <string name="loading">Carregando…</string>
     <string name="loading_section">Carregando conteúdo…</string>
     <string name="lock_screen">Tela de Bloqueio</string>
+    <string name="lpaper_dashboard">Painel de wallpapers</string>
     <string name="minutes">Minutos</string>
     <string name="muzei_not_connected_content">Desculpe, mas para ser capaz de escolher ou alterar as coleções de papel de parede que você quer, você deve estar conectado à Internet. Por favor, tente novamente mais tarde.</string>
     <string name="muzei_not_connected_title">Sem conexão com a internet</string>

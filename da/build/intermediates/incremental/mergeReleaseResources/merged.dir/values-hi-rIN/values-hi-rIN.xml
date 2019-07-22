@@ -57,7 +57,6 @@
     <string name="file_create_new">क्रिएट न्यू</string>
     <string name="file_exists">वॉलपेपर पहले से डाउनलोड किया गया है। क्या आप इसे बदलने के लिए डाउनलोड करना चाहते हैं?</string>
     <string name="file_replace">रिप्लेस</string>
-    <string name="frames_dashboard">फ्रेम्स डैशबोर्ड</string>
     <string name="home_lock_screen">होम और लॉक स्क्रीन</string>
     <string name="home_screen">होम स्क्रीन</string>
     <string name="hours">घंटे</string>
@@ -78,6 +77,7 @@
     <string name="loading">लोड हो रहा है…</string>
     <string name="loading_section">कंटेंट लोड हो रहा है ...</string>
     <string name="lock_screen">लॉक स्क्रीन</string>
+    <string name="lpaper_dashboard">फ्रेम्स डैशबोर्ड</string>
     <string name="minutes">मिनट</string>
     <string name="muzei_not_connected_content">क्षमा करें, लेकिन उन कलेक्शन को चुनने या परिवर्तित करने में सक्षम होने के लिए जिसे आप वॉलपेपर को एप्लिकेशन से लेना चाहते हैं, आपको इंटरनेट से कनेक्ट होना चाहिए। बाद में पुन: प्रयास करें।</string>
     <string name="muzei_not_connected_title">इंटरनेट से कनेक्टिड नहीं है</string>

@@ -56,6 +56,10 @@
         "source": "/home/travis/build/rajkale99/Frames/library/build/intermediates/packaged_res/release/drawable/ic_apply_homescreen.xml"
     },
     {
+        "merged": "/home/travis/build/rajkale99/Frames/app/build/intermediates/res/merged/release/menu_lpaper_menu.xml.flat",
+        "source": "/home/travis/build/rajkale99/Frames/library/build/intermediates/packaged_res/release/menu/lpaper_menu.xml"
+    },
+    {
         "merged": "/home/travis/build/rajkale99/Frames/app/build/intermediates/res/merged/release/drawable-mdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
         "source": "/home/travis/.gradle/caches/transforms-2/files-2.1/ba2d17162d5e89f9f4f8382304595d5e/res/drawable-mdpi-v4/abc_list_selector_disabled_holo_light.9.png"
     },
@@ -97,7 +101,7 @@
     },
     {
         "merged": "/home/travis/build/rajkale99/Frames/app/build/intermediates/res/merged/release/layout_kau_changelog_content.xml.flat",
-        "source": "/home/travis/.gradle/caches/transforms-2/files-2.1/ceee1252f5de4ddbc9a930f6b9ed7908/res/layout/kau_changelog_content.xml"
+        "source": "/home/travis/.gradle/caches/transforms-2/files-2.1/7903a5ba8289a8dcfc6c743c40e9399e/res/layout/kau_changelog_content.xml"
     },
     {
         "merged": "/home/travis/build/rajkale99/Frames/app/build/intermediates/res/merged/release/drawable-v21_abc_edit_text_material.xml.flat",
@@ -224,10 +228,6 @@
         "source": "/home/travis/.gradle/caches/transforms-2/files-2.1/ba2d17162d5e89f9f4f8382304595d5e/res/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
-        "merged": "/home/travis/build/rajkale99/Frames/app/build/intermediates/res/merged/release/menu_frames_menu.xml.flat",
-        "source": "/home/travis/build/rajkale99/Frames/library/build/intermediates/packaged_res/release/menu/frames_menu.xml"
-    },
-    {
         "merged": "/home/travis/build/rajkale99/Frames/app/build/intermediates/res/merged/release/drawable-mdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
         "source": "/home/travis/.gradle/caches/transforms-2/files-2.1/ba2d17162d5e89f9f4f8382304595d5e/res/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_015.png"
     },
@@ -241,7 +241,7 @@
     },
     {
         "merged": "/home/travis/build/rajkale99/Frames/app/build/intermediates/res/merged/release/layout_kau_changelog_title.xml.flat",
-        "source": "/home/travis/.gradle/caches/transforms-2/files-2.1/ceee1252f5de4ddbc9a930f6b9ed7908/res/layout/kau_changelog_title.xml"
+        "source": "/home/travis/.gradle/caches/transforms-2/files-2.1/7903a5ba8289a8dcfc6c743c40e9399e/res/layout/kau_changelog_title.xml"
     },
     {
         "merged": "/home/travis/build/rajkale99/Frames/app/build/intermediates/res/merged/release/drawable-mdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat",
@@ -553,7 +553,7 @@
     },
     {
         "merged": "/home/travis/build/rajkale99/Frames/app/build/intermediates/res/merged/release/drawable_light_rounded_bottom_sheet_bg.xml.flat",
-        "source": "/home/travis/.gradle/caches/transforms-2/files-2.1/ceee1252f5de4ddbc9a930f6b9ed7908/res/drawable/light_rounded_bottom_sheet_bg.xml"
+        "source": "/home/travis/.gradle/caches/transforms-2/files-2.1/7903a5ba8289a8dcfc6c743c40e9399e/res/drawable/light_rounded_bottom_sheet_bg.xml"
     },
     {
         "merged": "/home/travis/build/rajkale99/Frames/app/build/intermediates/res/merged/release/drawable-xhdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
@@ -733,7 +733,7 @@
     },
     {
         "merged": "/home/travis/build/rajkale99/Frames/app/build/intermediates/res/merged/release/drawable_amoled_rounded_bottom_sheet_bg.xml.flat",
-        "source": "/home/travis/.gradle/caches/transforms-2/files-2.1/ceee1252f5de4ddbc9a930f6b9ed7908/res/drawable/amoled_rounded_bottom_sheet_bg.xml"
+        "source": "/home/travis/.gradle/caches/transforms-2/files-2.1/7903a5ba8289a8dcfc6c743c40e9399e/res/drawable/amoled_rounded_bottom_sheet_bg.xml"
     },
     {
         "merged": "/home/travis/build/rajkale99/Frames/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
@@ -805,7 +805,7 @@
     },
     {
         "merged": "/home/travis/build/rajkale99/Frames/app/build/intermediates/res/merged/release/layout_item_split_button.xml.flat",
-        "source": "/home/travis/.gradle/caches/transforms-2/files-2.1/ceee1252f5de4ddbc9a930f6b9ed7908/res/layout/item_split_button.xml"
+        "source": "/home/travis/.gradle/caches/transforms-2/files-2.1/7903a5ba8289a8dcfc6c743c40e9399e/res/layout/item_split_button.xml"
     },
     {
         "merged": "/home/travis/build/rajkale99/Frames/app/build/intermediates/res/merged/release/raw_mit_summary.txt.flat",
@@ -2637,7 +2637,7 @@
     },
     {
         "merged": "/home/travis/build/rajkale99/Frames/app/build/intermediates/res/merged/release/drawable_dark_rounded_bottom_sheet_bg.xml.flat",
-        "source": "/home/travis/.gradle/caches/transforms-2/files-2.1/ceee1252f5de4ddbc9a930f6b9ed7908/res/drawable/dark_rounded_bottom_sheet_bg.xml"
+        "source": "/home/travis/.gradle/caches/transforms-2/files-2.1/7903a5ba8289a8dcfc6c743c40e9399e/res/drawable/dark_rounded_bottom_sheet_bg.xml"
     },
     {
         "merged": "/home/travis/build/rajkale99/Frames/app/build/intermediates/res/merged/release/layout_design_text_input_password_icon.xml.flat",

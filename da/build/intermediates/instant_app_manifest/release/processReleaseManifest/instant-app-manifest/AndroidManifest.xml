@@ -15,7 +15,7 @@
   ~ limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="jahirfiquitiva.apps.frames.sample"
+    package="com.legion.lpaper"
     android:targetSandboxVersion="2"
     android:versionCode="262"
     android:versionName="2.6.2" >
@@ -47,7 +47,7 @@
         android:xlargeScreens="true" />
 
     <application
-        android:name="jahirfiquitiva.apps.frames.sample.MyApplication"
+        android:name="com.legion.lpaper.app.MyApplication"
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:fullBackupContent="true"
@@ -73,7 +73,7 @@
         -->
 
         <activity
-            android:name="jahirfiquitiva.apps.frames.sample.MainActivity"
+            android:name="com.legion.lpaper.app.MainActivity"
             android:label="@string/app_name" >
 
             <!-- TODO: Do NOT remove the intent-filter tags -->
@@ -118,8 +118,8 @@
 
         <!-- Muzei Service -->
         <provider
-            android:name="jahirfiquitiva.apps.frames.sample.MuzeiService"
-            android:authorities="jahirfiquitiva.apps.frames.sample.muzei"
+            android:name="com.legion.lpaper.app.MuzeiService"
+            android:authorities="com.legion.lpaper.muzei"
             android:description="@string/app_description"
             android:exported="true"
             android:icon="@drawable/ic_muzei_icon"
@@ -134,13 +134,13 @@
                 android:value="@color/muzei_color" />
             <meta-data
                 android:name="settingsActivity"
-                android:value="jahirfiquitiva.libs.frames.ui.activities.MuzeiSettingsActivity" />
+                android:value="com.legion.lpaper.ui.activities.MuzeiSettingsActivity" />
         </provider>
 
         <!-- Required for files access !!! DO NOT REMOVE !!! -->
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="jahirfiquitiva.apps.frames.sample.fileProvider"
+            android:authorities="com.legion.lpaper.fileProvider"
             android:exported="false"
             android:grantUriPermissions="true" >
             <meta-data
@@ -171,20 +171,20 @@
             android:name="com.lge.support.SPLIT_WINDOW"
             android:value="true" /> <!-- suppress AndroidDomInspection -->
         <activity
-            android:name="jahirfiquitiva.libs.frames.ui.activities.FramesActivity"
+            android:name="com.legion.lpaper.ui.activities.LPaperActivity"
             android:exported="false"
             android:windowSoftInputMode="stateHidden|adjustPan|adjustResize" />
         <activity
-            android:name="jahirfiquitiva.libs.frames.ui.activities.ViewerActivity"
+            android:name="com.legion.lpaper.ui.activities.ViewerActivity"
             android:exported="false" />
         <activity
-            android:name="jahirfiquitiva.libs.frames.ui.activities.CollectionActivity"
+            android:name="com.legion.lpaper.ui.activities.CollectionActivity"
             android:exported="false"
             android:windowSoftInputMode="stateHidden|adjustPan|adjustResize" />
         <activity
-            android:name="jahirfiquitiva.libs.frames.ui.activities.CreditsActivity"
+            android:name="com.legion.lpaper.ui.activities.CreditsActivity"
             android:exported="false" />
-        <activity android:name="jahirfiquitiva.libs.frames.ui.activities.SettingsActivity" >
+        <activity android:name="com.legion.lpaper.ui.activities.SettingsActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.APPLICATION_PREFERENCES" />
 
@@ -192,7 +192,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="jahirfiquitiva.libs.frames.ui.activities.MuzeiSettingsActivity"
+            android:name="com.legion.lpaper.ui.activities.MuzeiSettingsActivity"
             android:exported="true" />
         <activity
             android:name="com.github.javiersantos.piracychecker.activities.LicenseActivity"
@@ -207,7 +207,7 @@
 
         <provider
             android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-            android:authorities="jahirfiquitiva.apps.frames.sample.lifecycle-process"
+            android:authorities="com.legion.lpaper.lifecycle-process"
             android:exported="false"
             android:multiprocess="true" />
     </application>

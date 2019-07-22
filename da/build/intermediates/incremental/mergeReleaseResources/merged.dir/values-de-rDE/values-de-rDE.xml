@@ -57,7 +57,6 @@
     <string name="file_create_new">Neu erstellen</string>
     <string name="file_exists">Wallpaper bereits heruntergeladen. Möchtest du es erneut herunterladen und ersetzen?</string>
     <string name="file_replace">Ersetzen</string>
-    <string name="frames_dashboard">Frames Dashboard</string>
     <string name="home_lock_screen">Start- und Sperrbildschirm</string>
     <string name="home_screen">Startbildschirm</string>
     <string name="hours">Stunden</string>
@@ -77,6 +76,7 @@
     <string name="loading">Laden...</string>
     <string name="loading_section">Lade Inhalt...</string>
     <string name="lock_screen">Sperrbildschirm</string>
+    <string name="lpaper_dashboard">LPaper Dashboard</string>
     <string name="minutes">Minuten</string>
     <string name="muzei_not_connected_content">Entschuldigung, aber um Sammlungen, aus denen die App Wallpaper nimmt, auswählen oder ändern zu können, musst du mit dem Internet verbunden sein. Bitte versuche es später noch einmal.</string>
     <string name="muzei_not_connected_title">Nicht mit dem Internet verbunden</string>

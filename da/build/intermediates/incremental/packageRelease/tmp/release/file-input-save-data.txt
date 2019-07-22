@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun Jul 21 10:00:21 UTC 2019
+#Mon Jul 22 17:54:54 UTC 2019
 2.base=/home/travis/build/rajkale99/Frames/app/build/intermediates/transforms/mergeJniLibs/release/0
 5.set=NATIVE_RESOURCE
 0.path=classes.dex

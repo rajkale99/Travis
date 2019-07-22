@@ -83,7 +83,6 @@
     <string name="file_create_new">重新下載</string>
     <string name="file_exists">桌布已下載，是否重新下載？</string>
     <string name="file_replace">替換</string>
-    <string name="frames_dashboard">Frames 控制台</string>
     <string name="home_lock_screen">主螢幕和螢幕鎖定</string>
     <string name="home_screen">主螢幕</string>
     <string name="hours">小時</string>
@@ -102,6 +101,7 @@
     <string name="loading">加載中...</string>
     <string name="loading_section">載入內容中...</string>
     <string name="lock_screen">螢幕鎖定</string>
+    <string name="lpaper_dashboard">LPaper 控制台</string>
     <string name="minutes">分鐘</string>
     <string name="muzei_not_connected_content">很抱歉，您必須連接到網路才可進行此操作，請稍後再試。</string>
     <string name="muzei_not_connected_title">無網絡連接</string>

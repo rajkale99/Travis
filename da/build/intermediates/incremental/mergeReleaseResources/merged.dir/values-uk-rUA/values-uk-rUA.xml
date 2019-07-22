@@ -57,7 +57,6 @@
     <string name="file_create_new">Створити</string>
     <string name="file_exists">Шпалери вже завантажено. Завантажити ще раз та замінити?</string>
     <string name="file_replace">Замінити</string>
-    <string name="frames_dashboard">Frames - панель керування</string>
     <string name="home_lock_screen">Головний екран та екран блокування</string>
     <string name="home_screen">Головний екран</string>
     <string name="hours">Годин</string>
@@ -76,6 +75,7 @@
     <string name="loading">Завантаження…</string>
     <string name="loading_section">Завантаження вмісту…</string>
     <string name="lock_screen">Екран блокування</string>
+    <string name="lpaper_dashboard">LPaper - панель керування</string>
     <string name="minutes">Хвилин</string>
     <string name="muzei_not_connected_content">Неможливо обрати колекцію, потрібне підключення до інтернету. Спробуйте пізніше.</string>
     <string name="muzei_not_connected_title">Немає підключення до інтернету</string>

@@ -57,7 +57,6 @@
     <string name="file_create_new">Создать</string>
     <string name="file_exists">Обои уже загружены. Хотите снова скачать и заменить их?</string>
     <string name="file_replace">Заменить</string>
-    <string name="frames_dashboard">Frames Dashboard</string>
     <string name="home_lock_screen">Домашний экран и экран блокировки</string>
     <string name="home_screen">Домашний экран</string>
     <string name="hours">Часов</string>
@@ -77,6 +76,7 @@
     <string name="loading">Загрузка</string>
     <string name="loading_section">Загружаем контент...</string>
     <string name="lock_screen">Экран блокировки</string>
+    <string name="lpaper_dashboard">LPaper Dashboard</string>
     <string name="minutes">Минут</string>
     <string name="muzei_not_connected_content">Невозможно выбрать коллекцию, нужно подключение к интернету. Попробуйте позднее.</string>
     <string name="muzei_not_connected_title">Нет подключения к интернету</string>

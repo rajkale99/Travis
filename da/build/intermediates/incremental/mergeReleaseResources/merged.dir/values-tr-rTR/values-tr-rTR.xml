@@ -57,7 +57,6 @@
     <string name="file_create_new">Yeni oluştur</string>
     <string name="file_exists">Duvar kağıdı çoktan indirildi. Tekrar indirmek ister misin?</string>
     <string name="file_replace">Değiştirmek</string>
-    <string name="frames_dashboard">Çerçevelenmiş pano</string>
     <string name="home_lock_screen">Ana ve kilit ekranları</string>
     <string name="home_screen">Ana ekran</string>
     <string name="hours">Saat</string>
@@ -77,6 +76,7 @@
     <string name="loading">Yükleniyor…</string>
     <string name="loading_section">Içerik yükleniyor ...</string>
     <string name="lock_screen">Kilit ekranı</string>
+    <string name="lpaper_dashboard">Çerçevelenmiş pano</string>
     <string name="minutes">Dakika</string>
     <string name="muzei_not_connected_content">Üzgünüz, ancak uygulamanın almasını istediğiniz duvar kağıdı koleksiyonlarını seçebilmeniz veya değiştirebilmeniz için İnternet\'e bağlı olmanız gerekir. Lütfen daha sonra tekrar deneyiniz.</string>
     <string name="muzei_not_connected_title">İnternet bağlantısı yok</string>

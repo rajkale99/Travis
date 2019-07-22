@@ -57,7 +57,6 @@
     <string name="file_create_new">নতুন বানান</string>
     <string name="file_exists">ওয়ালপেপার ডাউনলোড হয়ে আছে । আপনি কি এটাকে প্রতিস্থাপন করতে চান ডাউনলোড করে ?</string>
     <string name="file_replace">পরিবর্তন করুন</string>
-    <string name="frames_dashboard">ফ্রেমস্ ড্যাশবোর্ড</string>
     <string name="home_lock_screen">হোম এবং লক্ স্ক্রিনে</string>
     <string name="home_screen">হোম স্ক্রীনে</string>
     <string name="hours">ঘন্টা</string>
@@ -77,6 +76,7 @@
     <string name="loading">লোড হচ্ছে…</string>
     <string name="loading_section">বিষয়বস্তু লোড করা হচ্ছে</string>
     <string name="lock_screen">লক্ স্ক্রিনে</string>
+    <string name="lpaper_dashboard">ফ্রেমস্ ড্যাশবোর্ড</string>
     <string name="minutes">মিনিট</string>
     <string name="muzei_not_connected_content">দুঃখিত, আপনি কোন সংগ্রহ থেকে ওয়ালপেপার নিবেন সেটা নির্বাচন করার জন্যে ইন্টারনেটের সঙ্গে যুক্ত থাকা আবশ্যক । দয়া করে পরে আবার চেষ্টা করবেন ।</string>
     <string name="muzei_not_connected_title">আপনি ইন্টারনেটের সাথে সংযুক্ত নন</string>

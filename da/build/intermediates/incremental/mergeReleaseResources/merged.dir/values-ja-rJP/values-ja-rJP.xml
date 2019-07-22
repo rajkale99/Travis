@@ -28,7 +28,6 @@
     <string name="favorites">お気に入り</string>
     <string name="file_create_new">新規作成</string>
     <string name="file_replace">置き換え</string>
-    <string name="frames_dashboard">Frames Dashboard</string>
     <string name="home_lock_screen">ホーム画面とロック画面</string>
     <string name="home_screen">ホーム画面</string>
     <string name="hours">時間</string>
@@ -37,6 +36,7 @@
     <string name="light_theme">Light</string>
     <string name="loading_section">Loading content…</string>
     <string name="lock_screen">ロック画面</string>
+    <string name="lpaper_dashboard">LPaper Dashboard</string>
     <string name="minutes">分</string>
     <string name="next">次へ</string>
     <string name="no_favorites">Add some wallpapers to favorites first</string>

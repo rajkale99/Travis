@@ -58,7 +58,6 @@ Obecnie wybrana kolekcja: %1$s</string>
     <string name="file_create_new">Utwórz nowy</string>
     <string name="file_exists">Tapeta została już pobrana. Czy chcesz ją pobrać ponownie w celu zastąpienia poprzedniej?</string>
     <string name="file_replace">Zamień</string>
-    <string name="frames_dashboard">Aplikacja bazowa Frames</string>
     <string name="home_lock_screen">Ekran domowy i blokady</string>
     <string name="home_screen">Ekran domowy</string>
     <string name="hours">Godzin</string>
@@ -78,6 +77,7 @@ Obecnie wybrana kolekcja: %1$s</string>
     <string name="loading">Ładowanie...</string>
     <string name="loading_section">Ładowanie zawartości...</string>
     <string name="lock_screen">Ekran blokady</string>
+    <string name="lpaper_dashboard">Aplikacja bazowa LPaper</string>
     <string name="minutes">Minut</string>
     <string name="muzei_not_connected_content">Przepraszamy, ale do wybierania lub zmieniania kolekcji, z których chcesz pobierać tapety wymagane jest połączenie z internetem. Prosimy spróbować później.</string>
     <string name="muzei_not_connected_title">Brak połączenia z internetem</string>

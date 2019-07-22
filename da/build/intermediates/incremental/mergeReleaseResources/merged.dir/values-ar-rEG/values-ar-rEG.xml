@@ -37,7 +37,6 @@
     <string name="file_create_new">إنشاء جديد</string>
     <string name="file_exists">تم تحميل الخلفية بالفعل. هل تريد التحميل ليحل محله؟</string>
     <string name="file_replace">استبدال</string>
-    <string name="frames_dashboard">لوحة الإطارات</string>
     <string name="home_lock_screen">الشاشة الرئيسية وقفل الشاشة</string>
     <string name="home_screen">الشاشة الرئيسية</string>
     <string name="hours">ساعات</string>
@@ -46,6 +45,7 @@
     <string name="light_theme">Light</string>
     <string name="loading_section">يتم تحميل المحتوي…</string>
     <string name="lock_screen">قفل الشاشة</string>
+    <string name="lpaper_dashboard">لوحة الإطارات</string>
     <string name="minutes">دقائق</string>
     <string name="muzei_not_connected_content">عذراً، لكي تكون قادراً على اختيار أو تغيير المجموعات التي تريد التطبيق ان يتخذ خلفيات منها، يجب أن تكون متصلاً بإنترنت. الرجاء المحاولة مرة أخرى لاحقاً.</string>
     <string name="muzei_not_connected_title">غير متصل بالإنترنت</string>
