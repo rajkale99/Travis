@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/travis/build/rajkale99/Frames/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-el-rGR/values-el-rGR.xml",
+            "outputFile": "/home/travis/build/rajkale99/LPaper/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-el-rGR/values-el-rGR.xml",
             "map": [
                 {
-                    "source": "/home/travis/build/rajkale99/Frames/library/build/intermediates/packaged_res/release/values-el-rGR/values-el-rGR.xml",
+                    "source": "/home/travis/build/rajkale99/LPaper/library/build/intermediates/packaged_res/release/values-el-rGR/values-el-rGR.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",

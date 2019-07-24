@@ -28392,6 +28392,7 @@ com.legion.lpaper.R$raw: int sil_ofl_11_full
 com.legion.lpaper.R$raw: int sil_ofl_11_summary
 com.legion.lpaper.R$raw: R$raw()
 com.legion.lpaper.R$string
+com.legion.lpaper.R$string: int PRASHANT_description
 com.legion.lpaper.R$string: int abc_action_bar_home_description
 com.legion.lpaper.R$string: int abc_action_bar_up_description
 com.legion.lpaper.R$string: int abc_action_menu_overflow_description
@@ -28436,7 +28437,6 @@ com.legion.lpaper.R$string: int action_error_content
 com.legion.lpaper.R$string: int actions_dialog_content
 com.legion.lpaper.R$string: int added_to_favorites
 com.legion.lpaper.R$string: int all
-com.legion.lpaper.R$string: int allan_description
 com.legion.lpaper.R$string: int allow
 com.legion.lpaper.R$string: int amoled_theme
 com.legion.lpaper.R$string: int animations_setting_content
@@ -28579,7 +28579,6 @@ com.legion.lpaper.R$string: int search_x
 com.legion.lpaper.R$string: int settings
 com.legion.lpaper.R$string: int share
 com.legion.lpaper.R$string: int share_text
-com.legion.lpaper.R$string: int sherry_description
 com.legion.lpaper.R$string: int status_bar_notification_info_overflow
 com.legion.lpaper.R$string: int storage_settings_title
 com.legion.lpaper.R$string: int sure_to_exit
@@ -31641,6 +31640,7 @@ com.legion.lpaper.app.R$raw: int sil_ofl_11_full
 com.legion.lpaper.app.R$raw: int sil_ofl_11_summary
 com.legion.lpaper.app.R$raw: R$raw()
 com.legion.lpaper.app.R$string
+com.legion.lpaper.app.R$string: int PRASHANT_description
 com.legion.lpaper.app.R$string: int abc_action_bar_home_description
 com.legion.lpaper.app.R$string: int abc_action_bar_up_description
 com.legion.lpaper.app.R$string: int abc_action_menu_overflow_description
@@ -31685,7 +31685,6 @@ com.legion.lpaper.app.R$string: int action_error_content
 com.legion.lpaper.app.R$string: int actions_dialog_content
 com.legion.lpaper.app.R$string: int added_to_favorites
 com.legion.lpaper.app.R$string: int all
-com.legion.lpaper.app.R$string: int allan_description
 com.legion.lpaper.app.R$string: int allow
 com.legion.lpaper.app.R$string: int amoled_theme
 com.legion.lpaper.app.R$string: int animations_setting_content
@@ -31828,7 +31827,6 @@ com.legion.lpaper.app.R$string: int search_x
 com.legion.lpaper.app.R$string: int settings
 com.legion.lpaper.app.R$string: int share
 com.legion.lpaper.app.R$string: int share_text
-com.legion.lpaper.app.R$string: int sherry_description
 com.legion.lpaper.app.R$string: int status_bar_notification_info_overflow
 com.legion.lpaper.app.R$string: int storage_settings_title
 com.legion.lpaper.app.R$string: int sure_to_exit
@@ -33899,15 +33897,12 @@ com.legion.lpaper.ui.activities.CreditsActivity: kotlin.Lazy prefs$delegate
 com.legion.lpaper.ui.activities.CreditsActivity: kotlin.Lazy toolbar$delegate
 com.legion.lpaper.ui.activities.CreditsActivity: kotlin.Lazy recyclerView$delegate
 com.legion.lpaper.ui.activities.CreditsActivity: kotlin.Lazy fastScroller$delegate
-com.legion.lpaper.ui.activities.CreditsActivity: java.lang.String JAHIR_PHOTO_URL
-com.legion.lpaper.ui.activities.CreditsActivity: java.lang.String JAHIR_BUTTONS
-com.legion.lpaper.ui.activities.CreditsActivity: java.lang.String JAHIR_LINKS
-com.legion.lpaper.ui.activities.CreditsActivity: java.lang.String ALLAN_PHOTO_URL
-com.legion.lpaper.ui.activities.CreditsActivity: java.lang.String ALLAN_BUTTONS
-com.legion.lpaper.ui.activities.CreditsActivity: java.lang.String ALLAN_LINKS
-com.legion.lpaper.ui.activities.CreditsActivity: java.lang.String SHERRY_PHOTO_URL
-com.legion.lpaper.ui.activities.CreditsActivity: java.lang.String SHERRY_BUTTONS
-com.legion.lpaper.ui.activities.CreditsActivity: java.lang.String SHERRY_LINKS
+com.legion.lpaper.ui.activities.CreditsActivity: java.lang.String RAJ_PHOTO_URL
+com.legion.lpaper.ui.activities.CreditsActivity: java.lang.String RAJ_BUTTONS
+com.legion.lpaper.ui.activities.CreditsActivity: java.lang.String RAJ_LINKS
+com.legion.lpaper.ui.activities.CreditsActivity: java.lang.String PRASHANT_PHOTO_URL
+com.legion.lpaper.ui.activities.CreditsActivity: java.lang.String PRASHANT_BUTTONS
+com.legion.lpaper.ui.activities.CreditsActivity: java.lang.String PRASHANT_LINKS
 com.legion.lpaper.ui.activities.CreditsActivity: com.legion.lpaper.ui.activities.CreditsActivity$Companion Companion
 com.legion.lpaper.ui.activities.CreditsActivity: void <clinit>()
 com.legion.lpaper.ui.activities.CreditsActivity: com.legion.lpaper.helpers.utils.LPaperKonfigs getPrefs()
@@ -35207,17 +35202,7 @@ com.legion.lpaper.ui.adapters.viewholders.Credit: java.lang.String link
 com.legion.lpaper.ui.adapters.viewholders.Credit: java.lang.String description
 com.legion.lpaper.ui.adapters.viewholders.Credit: java.util.List buttonsTitles
 com.legion.lpaper.ui.adapters.viewholders.Credit: java.util.List buttonsLinks
-com.legion.lpaper.ui.adapters.viewholders.Credit: com.legion.lpaper.ui.adapters.viewholders.Credit JAMES
-com.legion.lpaper.ui.adapters.viewholders.Credit: com.legion.lpaper.ui.adapters.viewholders.Credit MAX
-com.legion.lpaper.ui.adapters.viewholders.Credit: com.legion.lpaper.ui.adapters.viewholders.Credit SASI
-com.legion.lpaper.ui.adapters.viewholders.Credit: com.legion.lpaper.ui.adapters.viewholders.Credit ALEX
-com.legion.lpaper.ui.adapters.viewholders.Credit: com.legion.lpaper.ui.adapters.viewholders.Credit LUKAS
-com.legion.lpaper.ui.adapters.viewholders.Credit: com.legion.lpaper.ui.adapters.viewholders.Credit PATRYK
-com.legion.lpaper.ui.adapters.viewholders.Credit: com.legion.lpaper.ui.adapters.viewholders.Credit LUMIQ
-com.legion.lpaper.ui.adapters.viewholders.Credit: com.legion.lpaper.ui.adapters.viewholders.Credit KEVIN
-com.legion.lpaper.ui.adapters.viewholders.Credit: com.legion.lpaper.ui.adapters.viewholders.Credit EDUARDO
-com.legion.lpaper.ui.adapters.viewholders.Credit: com.legion.lpaper.ui.adapters.viewholders.Credit ANTHONY
-com.legion.lpaper.ui.adapters.viewholders.Credit: java.util.ArrayList EXTRA_CREDITS
+com.legion.lpaper.ui.adapters.viewholders.Credit: com.legion.lpaper.ui.adapters.viewholders.Credit CORTEZZ0
 com.legion.lpaper.ui.adapters.viewholders.Credit: com.legion.lpaper.ui.adapters.viewholders.Credit$Companion Companion
 com.legion.lpaper.ui.adapters.viewholders.Credit: java.lang.String getName()
 com.legion.lpaper.ui.adapters.viewholders.Credit: java.lang.String getPhoto()
@@ -35229,7 +35214,6 @@ com.legion.lpaper.ui.adapters.viewholders.Credit: java.util.List getButtonsLinks
 com.legion.lpaper.ui.adapters.viewholders.Credit: Credit(java.lang.String,java.lang.String,com.legion.lpaper.ui.adapters.viewholders.Credit$Type,java.lang.String,java.lang.String,java.util.List,java.util.List)
 com.legion.lpaper.ui.adapters.viewholders.Credit: Credit(java.lang.String,java.lang.String,com.legion.lpaper.ui.adapters.viewholders.Credit$Type,java.lang.String,java.lang.String,java.util.List,java.util.List,int,kotlin.jvm.internal.DefaultConstructorMarker)
 com.legion.lpaper.ui.adapters.viewholders.Credit: void <clinit>()
-com.legion.lpaper.ui.adapters.viewholders.Credit: java.util.ArrayList access$getEXTRA_CREDITS$cp()
 com.legion.lpaper.ui.adapters.viewholders.Credit: java.lang.String component1()
 com.legion.lpaper.ui.adapters.viewholders.Credit: java.lang.String component2()
 com.legion.lpaper.ui.adapters.viewholders.Credit: com.legion.lpaper.ui.adapters.viewholders.Credit$Type component3()
@@ -35243,7 +35227,6 @@ com.legion.lpaper.ui.adapters.viewholders.Credit: java.lang.String toString()
 com.legion.lpaper.ui.adapters.viewholders.Credit: int hashCode()
 com.legion.lpaper.ui.adapters.viewholders.Credit: boolean equals(java.lang.Object)
 com.legion.lpaper.ui.adapters.viewholders.Credit$Companion
-com.legion.lpaper.ui.adapters.viewholders.Credit$Companion: java.util.ArrayList getEXTRA_CREDITS()
 com.legion.lpaper.ui.adapters.viewholders.Credit$Companion: Credit$Companion()
 com.legion.lpaper.ui.adapters.viewholders.Credit$Companion: Credit$Companion(kotlin.jvm.internal.DefaultConstructorMarker)
 com.legion.lpaper.ui.adapters.viewholders.Credit$Type

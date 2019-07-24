@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/travis/build/rajkale99/Frames/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-v21/values-v21.xml",
+            "outputFile": "/home/travis/build/rajkale99/LPaper/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-v21/values-v21.xml",
             "map": [
                 {
                     "source": "/home/travis/.gradle/caches/transforms-2/files-2.1/f765645f227462f6e3318dda6c344ec3/res/values-v21/values-v21.xml",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/home/travis/.gradle/caches/transforms-2/files-2.1/7903a5ba8289a8dcfc6c743c40e9399e/res/values-v21/values-v21.xml",
+                    "source": "/home/travis/.gradle/caches/transforms-2/files-2.1/ab87f734de4d4ccfa10677581ef0ef76/res/values-v21/values-v21.xml",
                     "from": {
                         "startLines": "3,7,13",
                         "startColumns": "4,4,4",
@@ -61,6 +61,25 @@
                     }
                 },
                 {
+                    "source": "/home/travis/build/rajkale99/LPaper/library/build/intermediates/packaged_res/release/values-v21/values-v21.xml",
+                    "from": {
+                        "startLines": "2,3,9,15,20,25,31",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,104,448,810,1105,1407,1774",
+                        "endLines": "2,8,14,19,24,30,36",
+                        "endColumns": "48,12,12,12,12,12,12",
+                        "endOffsets": "99,443,805,1100,1402,1769,2141"
+                    },
+                    "to": {
+                        "startLines": "6,7,248,254,259,264,356",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "354,403,18367,18729,19024,19326,24917",
+                        "endLines": "6,12,253,258,263,269,361",
+                        "endColumns": "48,12,12,12,12,12,12",
+                        "endOffsets": "398,742,18724,19019,19321,19688,25284"
+                    }
+                },
+                {
                     "source": "/home/travis/.gradle/caches/transforms-2/files-2.1/1849b9d82732339eb250b363c5c7a52f/res/values-v21/values-v21.xml",
                     "from": {
                         "startLines": "2,10,18,26",
@@ -77,25 +96,6 @@
                         "endLines": "331,339,347,355",
                         "endColumns": "10,10,10,10",
                         "endOffsets": "23628,24054,24477,24912"
-                    }
-                },
-                {
-                    "source": "/home/travis/build/rajkale99/Frames/library/build/intermediates/packaged_res/release/values-v21/values-v21.xml",
-                    "from": {
-                        "startLines": "2,3,9,15,20,25,31",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "55,104,448,810,1105,1407,1774",
-                        "endLines": "2,8,14,19,24,30,36",
-                        "endColumns": "48,12,12,12,12,12,12",
-                        "endOffsets": "99,443,805,1100,1402,1769,2141"
-                    },
-                    "to": {
-                        "startLines": "6,7,248,254,259,264,356",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "354,403,18367,18729,19024,19326,24917",
-                        "endLines": "6,12,253,258,263,269,361",
-                        "endColumns": "48,12,12,12,12,12,12",
-                        "endOffsets": "398,742,18724,19019,19321,19688,25284"
                     }
                 },
                 {

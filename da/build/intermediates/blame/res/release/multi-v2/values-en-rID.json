@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/travis/build/rajkale99/Frames/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-en-rID/values-en-rID.xml",
+            "outputFile": "/home/travis/build/rajkale99/LPaper/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-en-rID/values-en-rID.xml",
             "map": [
                 {
-                    "source": "/home/travis/build/rajkale99/Frames/library/build/intermediates/packaged_res/release/values-en-rID/values-en-rID.xml",
+                    "source": "/home/travis/build/rajkale99/LPaper/library/build/intermediates/packaged_res/release/values-en-rID/values-en-rID.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

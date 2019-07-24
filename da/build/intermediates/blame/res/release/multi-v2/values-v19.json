@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/travis/build/rajkale99/Frames/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-v19/values-v19.xml",
+            "outputFile": "/home/travis/build/rajkale99/LPaper/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-v19/values-v19.xml",
             "map": [
                 {
-                    "source": "/home/travis/build/rajkale99/Frames/library/build/intermediates/packaged_res/release/values-v19/values-v19.xml",
+                    "source": "/home/travis/build/rajkale99/LPaper/library/build/intermediates/packaged_res/release/values-v19/values-v19.xml",
                     "from": {
                         "startLines": "2,5,8,11",
                         "startColumns": "4,4,4,4",

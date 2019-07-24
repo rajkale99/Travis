@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/travis/build/rajkale99/Frames/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-land/values-land.xml",
+            "outputFile": "/home/travis/build/rajkale99/LPaper/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-land/values-land.xml",
             "map": [
                 {
                     "source": "/home/travis/.gradle/caches/transforms-2/files-2.1/1849b9d82732339eb250b363c5c7a52f/res/values-land/values-land.xml",

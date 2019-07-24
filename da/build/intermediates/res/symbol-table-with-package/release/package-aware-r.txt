@@ -1642,6 +1642,7 @@ raw mpl_20_summary
 raw notices
 raw sil_ofl_11_full
 raw sil_ofl_11_summary
+string PRASHANT_description
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -1686,7 +1687,6 @@ string action_error_content
 string actions_dialog_content
 string added_to_favorites
 string all
-string allan_description
 string allow
 string amoled_theme
 string animations_setting_content
@@ -1829,7 +1829,6 @@ string search_x
 string settings
 string share
 string share_text
-string sherry_description
 string status_bar_notification_info_overflow
 string storage_settings_title
 string sure_to_exit

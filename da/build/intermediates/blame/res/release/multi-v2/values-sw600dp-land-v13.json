@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/travis/build/rajkale99/Frames/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-sw600dp-land-v13/values-sw600dp-land-v13.xml",
+            "outputFile": "/home/travis/build/rajkale99/LPaper/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-sw600dp-land-v13/values-sw600dp-land-v13.xml",
             "map": [
                 {
-                    "source": "/home/travis/build/rajkale99/Frames/library/build/intermediates/packaged_res/release/values-sw600dp-land-v13/values-sw600dp-land-v13.xml",
+                    "source": "/home/travis/build/rajkale99/LPaper/library/build/intermediates/packaged_res/release/values-sw600dp-land-v13/values-sw600dp-land-v13.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

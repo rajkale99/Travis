@@ -33900,6 +33900,7 @@ com.legion.lpaper.R$raw -> com.legion.lpaper.R$raw:
     int sil_ofl_11_summary -> sil_ofl_11_summary
     void <init>() -> <init>
 com.legion.lpaper.R$string -> com.legion.lpaper.R$string:
+    int PRASHANT_description -> PRASHANT_description
     int abc_action_bar_home_description -> abc_action_bar_home_description
     int abc_action_bar_up_description -> abc_action_bar_up_description
     int abc_action_menu_overflow_description -> abc_action_menu_overflow_description
@@ -33944,7 +33945,6 @@ com.legion.lpaper.R$string -> com.legion.lpaper.R$string:
     int actions_dialog_content -> actions_dialog_content
     int added_to_favorites -> added_to_favorites
     int all -> all
-    int allan_description -> allan_description
     int allow -> allow
     int amoled_theme -> amoled_theme
     int animations_setting_content -> animations_setting_content
@@ -34087,7 +34087,6 @@ com.legion.lpaper.R$string -> com.legion.lpaper.R$string:
     int settings -> settings
     int share -> share
     int share_text -> share_text
-    int sherry_description -> sherry_description
     int status_bar_notification_info_overflow -> status_bar_notification_info_overflow
     int storage_settings_title -> storage_settings_title
     int sure_to_exit -> sure_to_exit
@@ -37149,6 +37148,7 @@ com.legion.lpaper.app.R$raw -> com.legion.lpaper.app.R$raw:
     int sil_ofl_11_summary -> sil_ofl_11_summary
     void <init>() -> <init>
 com.legion.lpaper.app.R$string -> com.legion.lpaper.app.R$string:
+    int PRASHANT_description -> PRASHANT_description
     int abc_action_bar_home_description -> abc_action_bar_home_description
     int abc_action_bar_up_description -> abc_action_bar_up_description
     int abc_action_menu_overflow_description -> abc_action_menu_overflow_description
@@ -37193,7 +37193,6 @@ com.legion.lpaper.app.R$string -> com.legion.lpaper.app.R$string:
     int actions_dialog_content -> actions_dialog_content
     int added_to_favorites -> added_to_favorites
     int all -> all
-    int allan_description -> allan_description
     int allow -> allow
     int amoled_theme -> amoled_theme
     int animations_setting_content -> animations_setting_content
@@ -37336,7 +37335,6 @@ com.legion.lpaper.app.R$string -> com.legion.lpaper.app.R$string:
     int settings -> settings
     int share -> share
     int share_text -> share_text
-    int sherry_description -> sherry_description
     int status_bar_notification_info_overflow -> status_bar_notification_info_overflow
     int storage_settings_title -> storage_settings_title
     int sure_to_exit -> sure_to_exit
@@ -39407,15 +39405,12 @@ com.legion.lpaper.ui.activities.CreditsActivity -> com.legion.lpaper.ui.activiti
     kotlin.Lazy toolbar$delegate -> toolbar$delegate
     kotlin.Lazy recyclerView$delegate -> recyclerView$delegate
     kotlin.Lazy fastScroller$delegate -> fastScroller$delegate
-    java.lang.String JAHIR_PHOTO_URL -> JAHIR_PHOTO_URL
-    java.lang.String JAHIR_BUTTONS -> JAHIR_BUTTONS
-    java.lang.String JAHIR_LINKS -> JAHIR_LINKS
-    java.lang.String ALLAN_PHOTO_URL -> ALLAN_PHOTO_URL
-    java.lang.String ALLAN_BUTTONS -> ALLAN_BUTTONS
-    java.lang.String ALLAN_LINKS -> ALLAN_LINKS
-    java.lang.String SHERRY_PHOTO_URL -> SHERRY_PHOTO_URL
-    java.lang.String SHERRY_BUTTONS -> SHERRY_BUTTONS
-    java.lang.String SHERRY_LINKS -> SHERRY_LINKS
+    java.lang.String RAJ_PHOTO_URL -> RAJ_PHOTO_URL
+    java.lang.String RAJ_BUTTONS -> RAJ_BUTTONS
+    java.lang.String RAJ_LINKS -> RAJ_LINKS
+    java.lang.String PRASHANT_PHOTO_URL -> PRASHANT_PHOTO_URL
+    java.lang.String PRASHANT_BUTTONS -> PRASHANT_BUTTONS
+    java.lang.String PRASHANT_LINKS -> PRASHANT_LINKS
     com.legion.lpaper.ui.activities.CreditsActivity$Companion Companion -> Companion
     void <clinit>() -> <clinit>
     com.legion.lpaper.helpers.utils.LPaperKonfigs getPrefs() -> getPrefs
@@ -40715,17 +40710,7 @@ com.legion.lpaper.ui.adapters.viewholders.Credit -> com.legion.lpaper.ui.adapter
     java.lang.String description -> description
     java.util.List buttonsTitles -> buttonsTitles
     java.util.List buttonsLinks -> buttonsLinks
-    com.legion.lpaper.ui.adapters.viewholders.Credit JAMES -> JAMES
-    com.legion.lpaper.ui.adapters.viewholders.Credit MAX -> MAX
-    com.legion.lpaper.ui.adapters.viewholders.Credit SASI -> SASI
-    com.legion.lpaper.ui.adapters.viewholders.Credit ALEX -> ALEX
-    com.legion.lpaper.ui.adapters.viewholders.Credit LUKAS -> LUKAS
-    com.legion.lpaper.ui.adapters.viewholders.Credit PATRYK -> PATRYK
-    com.legion.lpaper.ui.adapters.viewholders.Credit LUMIQ -> LUMIQ
-    com.legion.lpaper.ui.adapters.viewholders.Credit KEVIN -> KEVIN
-    com.legion.lpaper.ui.adapters.viewholders.Credit EDUARDO -> EDUARDO
-    com.legion.lpaper.ui.adapters.viewholders.Credit ANTHONY -> ANTHONY
-    java.util.ArrayList EXTRA_CREDITS -> EXTRA_CREDITS
+    com.legion.lpaper.ui.adapters.viewholders.Credit CORTEZZ0 -> CORTEZZ0
     com.legion.lpaper.ui.adapters.viewholders.Credit$Companion Companion -> Companion
     java.lang.String getName() -> getName
     java.lang.String getPhoto() -> getPhoto
@@ -40737,7 +40722,6 @@ com.legion.lpaper.ui.adapters.viewholders.Credit -> com.legion.lpaper.ui.adapter
     void <init>(java.lang.String,java.lang.String,com.legion.lpaper.ui.adapters.viewholders.Credit$Type,java.lang.String,java.lang.String,java.util.List,java.util.List) -> <init>
     void <init>(java.lang.String,java.lang.String,com.legion.lpaper.ui.adapters.viewholders.Credit$Type,java.lang.String,java.lang.String,java.util.List,java.util.List,int,kotlin.jvm.internal.DefaultConstructorMarker) -> <init>
     void <clinit>() -> <clinit>
-    java.util.ArrayList access$getEXTRA_CREDITS$cp() -> access$getEXTRA_CREDITS$cp
     java.lang.String component1() -> component1
     java.lang.String component2() -> component2
     com.legion.lpaper.ui.adapters.viewholders.Credit$Type component3() -> component3
@@ -40751,7 +40735,6 @@ com.legion.lpaper.ui.adapters.viewholders.Credit -> com.legion.lpaper.ui.adapter
     int hashCode() -> hashCode
     boolean equals(java.lang.Object) -> equals
 com.legion.lpaper.ui.adapters.viewholders.Credit$Companion -> com.legion.lpaper.ui.adapters.viewholders.Credit$Companion:
-    java.util.ArrayList getEXTRA_CREDITS() -> getEXTRA_CREDITS
     void <init>() -> <init>
     void <init>(kotlin.jvm.internal.DefaultConstructorMarker) -> <init>
 com.legion.lpaper.ui.adapters.viewholders.Credit$Type -> com.legion.lpaper.ui.adapters.viewholders.Credit$Type:
