@@ -1,0 +1,1 @@
+[{"outputType":{"type":"INSTANT_APP_MANIFEST"},"apkInfo":{"type":"MAIN","splits":[],"versionCode":262,"versionName":"2.6.2","enabled":true,"outputFile":"LPaper-v2.6.2-debug.apk","fullName":"debug","baseName":"debug"},"path":"AndroidManifest.xml","properties":{"packageId":"com.legion.lpaper","split":"","minSdkVersion":"16"}}]

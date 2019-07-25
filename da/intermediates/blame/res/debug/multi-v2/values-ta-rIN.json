@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/travis/build/rajkale99/LPaper/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ta-rIN/values-ta-rIN.xml",
+            "map": [
+                {
+                    "source": "/home/travis/build/rajkale99/LPaper/library/build/intermediates/packaged_res/debug/values-ta-rIN/values-ta-rIN.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,164,259,299,340,395,444,508,555,603,642,703,787,888,928,978",
+                        "endColumns": "108,94,39,40,54,48,63,46,47,38,60,83,100,39,49,60",
+                        "endOffsets": "159,254,294,335,390,439,503,550,598,637,698,782,883,923,973,1034"
+                    }
+                }
+            ]
+        }
+    ]
+}

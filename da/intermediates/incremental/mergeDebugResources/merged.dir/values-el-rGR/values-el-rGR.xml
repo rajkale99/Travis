@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="all">Όλες</string>
+    <string name="favorites">αγαπημένο</string>
+    <string name="x_wallpapers">%1$s fondos de pantalla</string>
+</resources>
