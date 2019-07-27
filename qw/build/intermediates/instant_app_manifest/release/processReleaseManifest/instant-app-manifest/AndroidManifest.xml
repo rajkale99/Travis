@@ -17,8 +17,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.legion.lpaper"
     android:targetSandboxVersion="2"
-    android:versionCode="262"
-    android:versionName="2.6.2" >
+    android:versionCode="100"
+    android:versionName="1.0.0" >
 
     <uses-sdk
         android:minSdkVersion="16"
