@@ -987,19 +987,17 @@ else if get_stage("%(bcb_dev)s") == "3/3" then
   security_patch = target_info.GetBuildProp("ro.build.version.security_patch")
   device = target_info.GetBuildProp("ro.product.device")
 
-#  script.Print("*****************************************************");
-#  script.Print("*   ____            ___    __    _____   ____       *");
-#  script.Print("* /\  _`\         /\_ \  /\ \__/\  __`\/\  _`\      *");
-#  script.Print("* \ \ \/\_\    ___\//\ \ \ \ ,_\ \ \/\ \ \,\L\_\    *");
-#  script.Print("*  \ \ \/_/_  / __`\\ \ \ \ \ \/\ \ \ \ \/_\__ \    *");
-#  script.Print("*   \ \ \L\ \/\ \L\ \\_\ \_\ \ \_\ \ \_\ \/\ \L\ \  *");
-#  script.Print("*    \ \____/\ \____//\____\\ \__\\ \_____\ `\____\ *");
-#  script.Print("*     \/___/  \/___/ \/____/ \/__/ \/_____/\/_____/ *");
-#  script.Print("*                                                   *");
-#  script.Print("*****************************************************");
-#  script.Print("*             by Rakesh Batra (*TeamLegion)           *");
-#  script.Print("*                Its Android 10 Enjoy              *");
-  script.Print("*****************************************************");
+  script.Print(" _      ______ _____ _____ ____  _   _  ____   ____ _");
+  script.Print("| |    |  ____/ ____|_   _/ __ \| \ | |/ __ \ / ____|");
+  script.Print("| |    | |__ | |  __  | || |  | |  \| | |  | | (___  ");
+  script.Print("| |    |  __|| | |_ | | || |  | | . ` | |  | |\___ \ ");
+  script.Print("| |____| |___| |__| |_| || |__| | |\  | |__| |____) |");
+  script.Print("|______|______\_____|_____\____/|_| \_|\____/|_____/ ");
+  script.Print("						      ");
+  script.Print("                    By RAJ KALE                      ");
+  script.Print("          Thanks For Flashing LEGIONOS Q             ");
+  script.Print("                                                     ");
+  script.Print("=====================================================");
   script.Print(" Android Version : %s"%(android_version));
   script.Print(" Build ID        : %s"%(build_id));
   script.Print(" Build Date      : %s"%(build));
