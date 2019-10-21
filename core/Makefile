@@ -1,4 +1,13 @@
 # Put some miscellaneous rules here
+#
+# Build system colors
+#
+# PFX: Prefix "target C++:" in yellow
+# INS: Module "Install:" output color (cyan for ics)
+
+ifneq ($(BUILD_WITH_COLORS),0)
+    include $(TOP_DIR)build/core/colors.mk
+endif
 
 # HACK: clear LOCAL_PATH from including last build target before calling
 # intermedites-dir-for
@@ -244,6 +253,8 @@ endif
 FINAL_DEFAULT_PROPERTIES := $(call uniq-pairs-by-first-component, \
     $(FINAL_DEFAULT_PROPERTIES),=)
 
+.PHONY: $(INSTALLED_BUILD_PROP_TARGET)
+
 intermediate_system_build_prop := $(call intermediates-dir-for,ETC,system_build_prop)/build.prop
 
 $(INSTALLED_DEFAULT_PROP_TARGET): $(BUILDINFO_COMMON_SH) $(intermediate_system_build_prop)
@@ -308,8 +319,22 @@ endif
 BUILD_VERSION_TAGS += $(BUILD_KEYS)
 BUILD_VERSION_TAGS := $(subst $(space),$(comma),$(sort $(BUILD_VERSION_TAGS)))
 
+# If the final fingerprint should be different than what was used by the build system,
+# we can allow that too.
+ifeq ($(TARGET_VENDOR_PRODUCT_NAME),)
+TARGET_VENDOR_PRODUCT_NAME := $(TARGET_PRODUCT)
+endif
+
+ifeq ($(TARGET_VENDOR_DEVICE_NAME),)
+TARGET_VENDOR_DEVICE_NAME := $(TARGET_DEVICE)
+endif
+
+ifeq ($(TARGET_VENDOR_RELEASE_BUILD_ID),)
+TARGET_VENDOR_RELEASE_BUILD_ID := $(BUILD_NUMBER_FROM_FILE)
+endif
+
 # A human-readable string that descibes this build in detail.
-build_desc := $(TARGET_PRODUCT)-$(TARGET_BUILD_VARIANT) $(PLATFORM_VERSION) $(BUILD_ID) $(BUILD_NUMBER_FROM_FILE) $(BUILD_VERSION_TAGS)
+build_desc := $(TARGET_VENDOR_PRODUCT_NAME)-$(TARGET_BUILD_VARIANT) $(PLATFORM_VERSION) $(BUILD_ID) $(TARGET_VENDOR_RELEASE_BUILD_ID) $(BUILD_VERSION_TAGS)
 $(intermediate_system_build_prop): PRIVATE_BUILD_DESC := $(build_desc)
 
 # The string used to uniquely identify the combined build and product; used by the OTA server.
@@ -319,7 +344,7 @@ ifeq (,$(strip $(BUILD_FINGERPRINT)))
   else
     BF_BUILD_NUMBER := $(file <$(BUILD_NUMBER_FILE))
   endif
-  BUILD_FINGERPRINT := $(PRODUCT_BRAND)/$(TARGET_PRODUCT)/$(TARGET_DEVICE):$(PLATFORM_VERSION)/$(BUILD_ID)/$(BF_BUILD_NUMBER):$(TARGET_BUILD_VARIANT)/$(BUILD_VERSION_TAGS)
+  BUILD_FINGERPRINT := $(PRODUCT_BRAND)/$(TARGET_VENDOR_PRODUCT_NAME)/$(TARGET_VENDOR_DEVICE_NAME):$(PLATFORM_VERSION)/$(BUILD_ID)/$(TARGET_VENDOR_RELEASE_BUILD_ID):$(TARGET_BUILD_VARIANT)/$(BUILD_VERSION_TAGS)
 endif
 # unset it for safety.
 BF_BUILD_NUMBER :=
@@ -407,12 +432,12 @@ endif
 	$(hide) PRODUCT_BRAND="$(PRODUCT_SYSTEM_BRAND)" \
 	        PRODUCT_MANUFACTURER="$(PRODUCT_SYSTEM_MANUFACTURER)" \
 	        PRODUCT_MODEL="$(PRODUCT_SYSTEM_MODEL)" \
-	        PRODUCT_NAME="$(PRODUCT_SYSTEM_NAME)" \
+	        PRODUCT_NAME="$(TARGET_VENDOR_PRODUCT_NAME)" \
 	        PRODUCT_DEVICE="$(PRODUCT_SYSTEM_DEVICE)" \
 	        $(call generate-common-build-props-with-product-vars-set,system,$@)
 	$(hide) TARGET_BUILD_TYPE="$(TARGET_BUILD_VARIANT)" \
-	        TARGET_BUILD_FLAVOR="$(TARGET_BUILD_FLAVOR)" \
-	        TARGET_DEVICE="$(TARGET_DEVICE)" \
+	        TARGET_BUILD_FLAVOR="$(TARGET_PRODUCT)-$(TARGET_BUILD_VARIANT)" \
+	        TARGET_DEVICE="$(TARGET_VENDOR_DEVICE_NAME)" \
 	        PRODUCT_DEFAULT_LOCALE="$(call get-default-product-locale,$(PRODUCT_LOCALES))" \
 	        PRODUCT_DEFAULT_WIFI_CHANNELS="$(PRODUCT_DEFAULT_WIFI_CHANNELS)" \
 	        PRIVATE_BUILD_DESC="$(PRIVATE_BUILD_DESC)" \
@@ -442,6 +467,16 @@ endif
 	        TARGET_CPU_ABI2="$(TARGET_CPU_ABI2)" \
 	        $(PRODUCT_BUILD_PROP_OVERRIDES) \
 	        bash $(BUILDINFO_SH) >> $@
+ifeq ($(TARGET_COPY_OUT_VENDOR),system)
+	$(hide) TARGET_DEVICE="$(TARGET_DEVICE)" \
+			PRODUCT_NAME="$(TARGET_PRODUCT)" \
+			PRODUCT_BRAND="$(PRODUCT_BRAND)" \
+			PRODUCT_MODEL="$(PRODUCT_MODEL)" \
+			PRODUCT_MANUFACTURER="$(PRODUCT_MANUFACTURER)" \
+			TARGET_BOOTLOADER_BOARD_NAME="$(TARGET_BOOTLOADER_BOARD_NAME)" \
+			TARGET_BOARD_PLATFORM="$(TARGET_BOARD_PLATFORM)" \
+	        bash $(VENDOR_BUILDINFO_SH) >> $@
+endif
 	$(hide) $(foreach file,$(system_prop_file), \
 	    if [ -f "$(file)" ]; then \
 	        echo Target buildinfo from: "$(file)"; \
@@ -476,6 +511,8 @@ $(INSTALLED_BUILD_PROP_TARGET): $(intermediate_system_build_prop) $(INSTALLED_RE
 # -----------------------------------------------------------------
 # vendor build.prop
 #
+# Prevent overwriting build.prop in system
+ifneq ($(TARGET_COPY_OUT_VENDOR),system)
 # For verifying that the vendor build is what we think it is
 INSTALLED_VENDOR_BUILD_PROP_TARGET := $(TARGET_OUT_VENDOR)/build.prop
 ALL_DEFAULT_INSTALLED_MODULES += $(INSTALLED_VENDOR_BUILD_PROP_TARGET)
@@ -486,6 +523,12 @@ FINAL_VENDOR_BUILD_PROPERTIES += \
 FINAL_VENDOR_BUILD_PROPERTIES := $(call uniq-pairs-by-first-component, \
     $(FINAL_VENDOR_BUILD_PROPERTIES),=)
 endif  # property_overrides_split_enabled
+
+ifdef TARGET_VENDOR_PROP
+vendor_prop_file := $(TARGET_VENDOR_PROP)
+else
+vendor_prop_file := $(wildcard $(TARGET_DEVICE_DIR)/vendor.prop)
+endif
 
 $(INSTALLED_VENDOR_BUILD_PROP_TARGET): $(BUILDINFO_COMMON_SH) $(intermediate_system_build_prop)
 	@echo Target vendor buildinfo: $@
@@ -519,10 +562,19 @@ endif
 	        echo "# ADDITIONAL VENDOR BUILD PROPERTIES" >> $@; \
 	        echo "#" >> $@;
 	$(hide) cat $(INSTALLED_ANDROID_INFO_TXT_TARGET) | grep 'require version-' | sed -e 's/require version-/ro.build.expect./g' >> $@
+	$(hide) $(foreach file,$(vendor_prop_file), \
+	  if [ -f "$(file)" ]; then \
+	    echo "#" >> $@; \
+	    echo Target buildinfo from: "$(file)"; \
+	    echo "# from $(file)" >> $@; \
+	    echo "#" >> $@; \
+	    cat $(file) >> $@; \
+	  fi;)
 ifdef property_overrides_split_enabled
 	$(hide) $(foreach line,$(FINAL_VENDOR_BUILD_PROPERTIES), \
 	    echo "$(line)" >> $@;)
 endif  # property_overrides_split_enabled
+endif  # TARGET_COPY_OUT_VENDOR=system
 	$(hide) build/make/tools/post_process_props.py $@ $(PRODUCT_VENDOR_PROPERTY_BLACKLIST)
 
 # -----------------------------------------------------------------
@@ -1539,15 +1591,15 @@ endef
 # $(4): staging dir
 # Depmod requires a well-formed kernel version so 0.0 is used as a placeholder.
 define build-image-kernel-modules
-    $(hide) rm -rf $(2)/lib/modules
-    $(hide) mkdir -p $(2)/lib/modules
-    $(hide) cp $(1) $(2)/lib/modules/
-    $(hide) rm -rf $(4)
-    $(hide) mkdir -p $(4)/lib/modules/0.0/$(3)lib/modules
-    $(hide) cp $(1) $(4)/lib/modules/0.0/$(3)lib/modules
-    $(hide) $(DEPMOD) -b $(4) 0.0
-    $(hide) sed -e 's/\(.*modules.*\):/\/\1:/g' -e 's/ \([^ ]*modules[^ ]*\)/ \/\1/g' $(4)/lib/modules/0.0/modules.dep > $(2)/lib/modules/modules.dep
-    $(hide) cp $(4)/lib/modules/0.0/modules.alias $(2)/lib/modules
+    rm -rf $(2)/lib/modules
+    mkdir -p $(2)/lib/modules
+    cp $(1) $(2)/lib/modules/
+    rm -rf $(4)
+    mkdir -p $(4)/lib/modules/0.0/$(3)lib/modules
+    cp $(1) $(4)/lib/modules/0.0/$(3)lib/modules
+    $(DEPMOD) -b $(4) 0.0
+    sed -e 's/\(.*modules.*\):/\/\1:/g' -e 's/ \([^ ]*modules[^ ]*\)/ \/\1/g' $(4)/lib/modules/0.0/modules.dep > $(2)/lib/modules/modules.dep
+    cp $(4)/lib/modules/0.0/modules.alias $(2)/lib/modules
 endef
 
 # -----------------------------------------------------------------
@@ -2909,8 +2961,10 @@ vendorimage-nodeps vnod: | $(INTERNAL_USERIMAGES_DEPS) $(DEPMOD)
 sync: $(INTERNAL_VENDORIMAGE_FILES)
 
 else ifdef BOARD_PREBUILT_VENDORIMAGE
+ifneq (true,$(BOARD_PREBUILT_VENDORIMAGE))
 INSTALLED_VENDORIMAGE_TARGET := $(PRODUCT_OUT)/vendor.img
 $(eval $(call copy-one-file,$(BOARD_PREBUILT_VENDORIMAGE),$(INSTALLED_VENDORIMAGE_TARGET)))
+endif
 endif
 
 # -----------------------------------------------------------------
@@ -3124,6 +3178,8 @@ $(strip $(foreach item,$(1),$(INSTALLED_$(call to-upper,$(item))IMAGE_TARGET)))
 endef
 
 ifdef TARGET_NEEDS_DTBOIMAGE
+INSTALLED_DTBOIMAGE_TARGET := $(PRODUCT_OUT)/dtbo.img
+else ifdef BOARD_KERNEL_SEPARATED_DTBO
 INSTALLED_DTBOIMAGE_TARGET := $(PRODUCT_OUT)/dtbo.img
 endif
 
@@ -3449,6 +3505,10 @@ $(INSTALLED_VBMETAIMAGE_TARGET): \
 vbmetaimage-nodeps:
 	$(build-vbmetaimage-target)
 
+else ifdef BOARD_PREBUILT_VBMETAIMAGE
+INSTALLED_VBMETAIMAGE_TARGET := $(PRODUCT_OUT)/vbmeta.img
+$(eval $(call copy-one-file,$(BOARD_PREBUILT_VBMETAIMAGE),$(INSTALLED_VBMETAIMAGE_TARGET)))
+
 endif # BOARD_AVB_ENABLE
 
 # -----------------------------------------------------------------
@@ -3612,6 +3672,7 @@ OTATOOLS :=  $(HOST_OUT_EXECUTABLES)/minigzip \
   $(HOST_OUT_EXECUTABLES)/aapt \
   $(HOST_OUT_EXECUTABLES)/adb \
   $(HOST_OUT_EXECUTABLES)/checkvintf \
+  $(HOST_OUT_EXECUTABLES)/adb \
   $(HOST_OUT_EXECUTABLES)/mkbootfs \
   $(HOST_OUT_EXECUTABLES)/mkbootimg \
   $(HOST_OUT_EXECUTABLES)/fs_config \
@@ -4193,9 +4254,17 @@ ifeq ($(BREAKPAD_GENERATE_SYMBOLS),true)
 	$(hide) $(ACP) -r $(TARGET_OUT_BREAKPAD) $(zip_root)/BREAKPAD
 endif
 	$(hide) echo "ota_override_device=$(OTA_SCRIPT_OVERRIDE_DEVICE)" >> $(zip_root)/META/misc_info.txt
+ifdef BOARD_PREBUILT_VBMETAIMAGE
+	$(hide) mkdir -p $(zip_root)/IMAGES
+	$(hide) cp $(INSTALLED_VBMETAIMAGE_TARGET) $(zip_root)/IMAGES/
+endif
 ifdef BOARD_PREBUILT_VENDORIMAGE
+ifeq (true,$(BOARD_PREBUILT_VENDORIMAGE))
+	$(hide) echo "vendor_prebuilt_installed=true" >> $(zip_root)/META/misc_info.txt
+else
 	$(hide) mkdir -p $(zip_root)/IMAGES
 	$(hide) cp $(INSTALLED_VENDORIMAGE_TARGET) $(zip_root)/IMAGES/
+endif
 endif
 ifdef BOARD_PREBUILT_PRODUCTIMAGE
 	$(hide) mkdir -p $(zip_root)/IMAGES
@@ -4295,7 +4364,7 @@ endif # BOARD_SUPER_PARTITION_GROUPS
 	@# help early validation of the .zip file while uploading it.
 	$(hide) find $(zip_root)/META | sort >$@.list
 	$(hide) find $(zip_root) -path $(zip_root)/META -prune -o -print | sort >>$@.list
-	$(hide) $(SOONG_ZIP) -d -o $@ -C $(zip_root) -l $@.list
+	$(hide) $(SOONG_ZIP) -L 0 -d -o $@ -C $(zip_root) -l $@.list
 
 .PHONY: target-files-package
 target-files-package: $(BUILT_TARGET_FILES_PACKAGE)
@@ -4371,9 +4440,35 @@ $(INTERNAL_OTA_PACKAGE_TARGET): $(BUILT_TARGET_FILES_PACKAGE) \
 	@echo "Package OTA: $@"
 	$(call build-ota-package-target,$@,-k $(KEY_CERT_PAIR) --backup=$(backuptool) --output_metadata_path $(INTERNAL_OTA_METADATA))
 
-.PHONY: otapackage
+LEGION_TARGET_PACKAGE := $(PRODUCT_OUT)/$(LEGION_BUILD_VERSION).zip
+.PHONY: otapackage legion
 otapackage: $(INTERNAL_OTA_PACKAGE_TARGET)
-
+legion: otapackage
+	$(hide) ln -f $(INTERNAL_OTA_PACKAGE_TARGET) $(LEGION_TARGET_PACKAGE)
+	$(hide) $(MD5SUM) $(LEGION_TARGET_PACKAGE) > $(LEGION_TARGET_PACKAGE).md5sum
+#	@echo -e ${CL_RED}"                                                                                           "${CL_RED}
+#	@echo -e ${CL_RED}"*******************************************************************************************"${CL_RED}
+#	@echo -e ${CL_RED}"                                                                                           "${CL_RED}
+#	@echo -e ${CL_RED}"   ▄████████  ▄██████▄   ▄█           ███        ▄████████ ███▄▄▄▄   ████████▄  ▄██   ▄    "${CL_RED}
+#	@echo -e ${CL_RED}"   ███    ███ ███    ███ ███       ▀█████████▄   ███    ███ ███▀▀▀██▄ ███   ▀███ ███   ██▄ "${CL_RED}
+#	@echo -e ${CL_RED}"   ███    █▀  ███    ███ ███          ▀███▀▀██   ███    ███ ███   ███ ███    ███ ███▄▄▄███ "${CL_RED}
+#	@echo -e ${CL_CYN}"   ███        ███    ███ ███           ███   ▀   ███    ███ ███   ███ ███    ███ ▀▀▀▀▀▀███ "${CL_CYN}
+#	@echo -e ${CL_CYN}"   ███        ███    ███ ███           ███     ▀███████████ ███   ███ ███    ███ ▄██   ███ "${CL_CYN}
+#	@echo -e ${CL_CYN}"   ███    █▄  ███    ███ ███           ███       ███    ███ ███   ███ ███    ███ ███   ███ "${CL_CYN}
+#	@echo -e ${CL_CYN}"   ███    ███ ███    ███ ███▌    ▄     ███       ███    ███ ███   ███ ███   ▄███ ███   ███ "${CL_CYN}
+#	@echo -e ${CL_YLW}"   ████████▀   ▀██████▀  █████▄▄██    ▄████▀     ███    █▀   ▀█   █▀  ████████▀   ▀█████▀  "${CL_YLW}
+#	@echo -e ${CL_YLW}"   ▀                                                                                       "${CL_YLW}
+#	@echo -e ${CL_YLW}"                                                                                           "${CL_YLW}
+	@echo -e ${CL_YLW}"*******************************************************************************************"${CL_RED}
+	@echo -e ${CL_RED}"                         Thanks for Compiling LegionOS : Enjoy :)                            "${CL_RED}
+	@echo -e ${CL_RED}"==================================Package Complete========================================="${CL_RED}
+	@echo -e ${CL_RED}"                          LegionOS by RAJ KALE                               "${CL_RED}
+	@echo -e ${CL_YLW}"*******************************************************************************************"${CL_RED}
+	@echo -e ${CL_RED}"                                                                                           "${CL_RED}
+	@echo -e ${CL_BLD}${CL_YLW}"Zip: "${CL_YLW} $(LEGION_TARGET_PACKAGE)${CL_RST}
+	@echo -e ${CL_BLD}${CL_YLW}"MD5: "${CL_YLW}" `cat $(LEGION_TARGET_PACKAGE).md5sum | awk '{print $$1}' `"${CL_RST}
+	@echo -e ${CL_BLD}${CL_YLW}"Size:"${CL_YLW}" `du -sh $(LEGION_TARGET_PACKAGE) | awk '{print $$1}' `"${CL_RST}
+	@echo -e ${CL_BLD}${CL_RED}"====================================================================="${CL_RED}
 ifeq ($(BOARD_BUILD_RETROFIT_DYNAMIC_PARTITIONS_OTA_PACKAGE),true)
 name := $(TARGET_PRODUCT)
 ifeq ($(TARGET_BUILD_TYPE),debug)

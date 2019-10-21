@@ -959,18 +959,18 @@ else if get_stage("%(bcb_dev)s") == "3/3" then
   # Dump fingerprints
   script.Print("Target: {}".format(target_info.fingerprint))
 
-  script.AppendExtra("ifelse(is_mounted(\"/system\"), unmount(\"/system\"));")
   device_specific.FullOTA_InstallBegin()
 
   CopyInstallTools(output_zip)
   script.UnpackPackageDir("install", "/tmp/install")
   script.SetPermissionsRecursive("/tmp/install", 0, 0, 0755, 0644, None, None)
   script.SetPermissionsRecursive("/tmp/install/bin", 0, 0, 0755, 0755, None, None)
+  script.MountSys("check")
 
   if OPTIONS.backuptool:
-    script.Mount("/system")
-    script.RunBackup("backup")
-    script.Unmount("/system")
+    script.MountSys("mount")
+    script.RunBackup("backup", "/tmp/system_mount/system")
+    script.MountSys("unmount")
 
   system_progress = 0.75
 
@@ -987,25 +987,26 @@ else if get_stage("%(bcb_dev)s") == "3/3" then
   security_patch = target_info.GetBuildProp("ro.build.version.security_patch")
   device = target_info.GetBuildProp("ro.product.device")
 
-  script.Print("=====================================================");
-  script.Print(" _      ______ _____ _____ ____  _   _  ____   ____ _");
-  script.Print("| |    |  ____/ ____|_   _/ __ \| \ | |/ __ \ / ____|");
-  script.Print("| |    | |__ | |  __  | || |  | |  \| | |  | | (___  ");
-  script.Print("| |    |  __|| | |_ | | || |  | | . ` | |  | |\___ \ ");
-  script.Print("| |____| |___| |__| |_| || |__| | |\  | |__| |____) |");
-  script.Print("|______|______\_____|_____\____/|_| \_|\____/|_____/ ");
-  script.Print("						                                         ");
-  script.Print("                    By RAJ KALE                      ");
-  script.Print("          Thanks For Flashing LEGIONOS Q             ");
-  script.Print("                                                     ");
-  script.Print("=====================================================");
+#  script.Print("*****************************************************");
+#  script.Print("*   ____            ___    __    _____   ____       *");
+#  script.Print("* /\  _`\         /\_ \  /\ \__/\  __`\/\  _`\      *");
+#  script.Print("* \ \ \/\_\    ___\//\ \ \ \ ,_\ \ \/\ \ \,\L\_\    *");
+#  script.Print("*  \ \ \/_/_  / __`\\ \ \ \ \ \/\ \ \ \ \/_\__ \    *");
+#  script.Print("*   \ \ \L\ \/\ \L\ \\_\ \_\ \ \_\ \ \_\ \/\ \L\ \  *");
+#  script.Print("*    \ \____/\ \____//\____\\ \__\\ \_____\ `\____\ *");
+#  script.Print("*     \/___/  \/___/ \/____/ \/__/ \/_____/\/_____/ *");
+#  script.Print("*                                                   *");
+#  script.Print("*****************************************************");
+#  script.Print("*             by Rakesh Batra (*TeamLegion)           *");
+#  script.Print("*                Its Android 10 Enjoy              *");
+  script.Print("*****************************************************");
   script.Print(" Android Version : %s"%(android_version));
-  script.Print(" Build id: %s"%(build_id));
+  script.Print(" Build ID        : %s"%(build_id));
   script.Print(" Build Date      : %s"%(build));
   script.Print(" Security Patch  : %s"%(security_patch));
-  script.Print(" Device: %s"%(device));
+  script.Print(" Device          : %s"%(device));
   script.Print(" Manufacturer    : %s"%(manufacturer));
-  script.Print("=====================================================");
+  script.Print("*****************************************************");
 
   def GetBlockDifference(partition):
     # Full OTA is done as an "incremental" against an empty source image. This
@@ -1057,9 +1058,9 @@ else if get_stage("%(bcb_dev)s") == "3/3" then
 
   if OPTIONS.backuptool:
     script.ShowProgress(0.02, 10)
-    script.Mount("/system")
-    script.RunBackup("restore")
-    script.Unmount("/system")
+    script.MountSys("mount")
+    script.RunBackup("restore", "/tmp/system_mount/system")
+    script.MountSys("unmount")
 
   script.ShowProgress(0.05, 5)
   script.WriteRawImage("/boot", "boot.img")
@@ -1067,7 +1068,7 @@ else if get_stage("%(bcb_dev)s") == "3/3" then
   script.ShowProgress(0.2, 10)
   device_specific.FullOTA_InstallEnd()
 
-  script.Print("Enjoy LegionOS");
+  script.Print("LegionOS is installed, Feel the Enigma");
 
   if OPTIONS.extra_script is not None:
     script.AppendExtra(OPTIONS.extra_script)
