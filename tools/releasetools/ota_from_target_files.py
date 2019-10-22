@@ -987,17 +987,18 @@ else if get_stage("%(bcb_dev)s") == "3/3" then
   security_patch = target_info.GetBuildProp("ro.build.version.security_patch")
   device = target_info.GetBuildProp("ro.product.device")
 
-  script.Print(" _      ______ _____ _____ ____  _   _  ____   ____ _");
-  script.Print("| |    |  ____/ ____|_   _/ __ \| \ | |/ __ \ / ____|");
-  script.Print("| |    | |__ | |  __  | || |  | |  \| | |  | | (___  ");
-  script.Print("| |    |  __|| | |_ | | || |  | | . ` | |  | |\___ \ ");
-  script.Print("| |____| |___| |__| |_| || |__| | |\  | |__| |____) |");
-  script.Print("|______|______\_____|_____\____/|_| \_|\____/|_____/ ");
-  script.Print("						      ");
-  script.Print("                    By RAJ KALE                      ");
-  script.Print("          Thanks For Flashing LEGIONOS Q             ");
-  script.Print("                                                     ");
-  script.Print("=====================================================");
+  script.Print("*******************************************************");
+  script.Print("* _      ______ _____ _____ ____  _   _  ____   ____ _*");
+  script.Print("*| |    |  ____/ ____|_   _/ __ \| \ | |/ __ \ / ____|*");
+  script.Print("*| |    | |__ | |  __  | || |  | |  \| | |  | | (___  *");
+  script.Print("*| |    |  __|| | |_ | | || |  | | . ` | |  | |\___ \ *");
+  script.Print("*| |____| |___| |__| |_| || |__| | |\  | |__| |____) |*");
+  script.Print("*|______|______\_____|_____\____/|_| \_|\____/|_____/ *");
+  script.Print("*						                                          *");
+  script.Print("*                   By RAJ KALE                       *");
+  script.Print("*          Thanks For Flashing LEGIONOS Q             *");
+  script.Print("*                                                     *");
+  script.Print("*=====================================================*");
   script.Print(" Android Version : %s"%(android_version));
   script.Print(" Build ID        : %s"%(build_id));
   script.Print(" Build Date      : %s"%(build));
@@ -1066,23 +1067,8 @@ else if get_stage("%(bcb_dev)s") == "3/3" then
   script.ShowProgress(0.2, 10)
   device_specific.FullOTA_InstallEnd()
 
-  script.Print("LegionOS is installed, Feel the Enigma");
-
-  if OPTIONS.extra_script is not None:
-    script.AppendExtra(OPTIONS.extra_script)
-
-  script.UnmountAll()
-
-  if OPTIONS.wipe_user_data:
-    script.ShowProgress(0.1, 10)
-    script.FormatPartition("/data")
-
-  if OPTIONS.two_step:
-    script.AppendExtra("""
-set_stage("%(bcb_dev)s", "");
-""" % bcb_dev)
-    script.AppendExtra("else\n")
-
+  script.Print("Enjoy LegionOS")
+               
     # Stage 1/3: Nothing to verify for full OTA. Write recovery image to /boot.
     script.Comment("Stage 1/3")
     _WriteRecoveryImageToBoot(script, output_zip)
